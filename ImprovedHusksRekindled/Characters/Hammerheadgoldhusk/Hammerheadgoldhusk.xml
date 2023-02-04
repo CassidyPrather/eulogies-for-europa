@@ -17,21 +17,21 @@
     <Item identifier="huskeggs" />
     <Item identifier="huskstinger" />
   </Inventory>
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/idle1.ogg" state="Idle" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/idle2.ogg" state="Idle" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/idle3.ogg" state="Idle" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/idle4.ogg" state="Idle" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/attack1.ogg" state="Attack" range="6000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/attack2.ogg" state="Attack" range="6000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/attack3.ogg" state="Attack" range="6000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/attack4.ogg" state="Attack" range="6000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/damage1.ogg" state="Damage" range="4000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/damage2.ogg" state="Damage" range="4000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/damage3.ogg" state="Damage" range="4000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/damage4.ogg" state="Damage" range="4000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/death1.ogg" state="Die" range="4000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/death2.ogg" state="Die" range="4000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Hammerheadgoldhusk/death3.ogg" state="Die" range="4000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/idle1.ogg" state="Idle" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/idle2.ogg" state="Idle" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/idle3.ogg" state="Idle" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/idle4.ogg" state="Idle" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/attack1.ogg" state="Attack" range="6000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/attack2.ogg" state="Attack" range="6000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/attack3.ogg" state="Attack" range="6000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/attack4.ogg" state="Attack" range="6000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/damage1.ogg" state="Damage" range="4000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/damage2.ogg" state="Damage" range="4000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/damage3.ogg" state="Damage" range="4000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/damage4.ogg" state="Damage" range="4000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/death1.ogg" state="Die" range="4000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/death2.ogg" state="Die" range="4000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Hammerheadgoldhusk/death3.ogg" state="Die" range="4000" volume="1" gender="None" />
   <ai combatstrength="650" sight="4" hearing="2" aggressionhurt="50" aggressiongreed="10" fleehealththreshold="0" attackwhenprovoked="False" aggressiveboarding="False" avoidgunfire="False" avoidtime="3" minfleetime="20" enforceaggressivebehaviorformissions="True" targetouterwalls="True" randomattack="False" canopendoors="False" keepdoorsclosed="False" avoidabyss="False" stayinabyss="False" patrolflooded="False" patroldry="False" startaggression="0" maxaggression="100" aggressioncumulation="0" walltargetingmethod="Target">
     <target tag="decoy" state="Attack" priority="300" ignoreifnotinsamesub="True" reactdistance="0" attackdistance="0" timer="0" ignorecontained="False" ignoreinside="False" ignoreoutside="False" ignoreincapacitated="False" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" attackpattern="Straight" sweepdistance="0" sweepstrength="10" sweepspeed="1" circlestartdistance="5000" circlerotationspeed="1" circlestrikedistancemultiplier="5" circlemaxrandomoffset="0" />
     <target tag="nasonov" state="Attack" priority="200" reactdistance="0" attackdistance="0" timer="0" ignorecontained="False" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" attackpattern="Straight" sweepdistance="0" sweepstrength="10" sweepspeed="1" circlestartdistance="5000" circlerotationspeed="1" circlestrikedistancemultiplier="5" circlemaxrandomoffset="0" />

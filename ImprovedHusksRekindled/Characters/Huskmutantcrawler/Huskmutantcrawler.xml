@@ -13,18 +13,18 @@
     <Limb name="LeftLeg" />
     <Limb name="RightLeg" />
   </health>
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/attack1.ogg" state="Attack" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/attack2.ogg" state="Attack" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/attack3.ogg" state="Attack" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/idle4.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/death1.ogg" state="Die" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/death2.ogg" state="Die" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/damage3.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/attack1.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/attack2.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/attack3.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/idle4.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/death1.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/death2.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcrawler/damage3.ogg" state="Damage" range="1000" volume="1" gender="None" />
   <inventory slots="Any, Any, Any, Any, Any" accessiblewhenalive="False" commonness="4">
     <Item identifier="huskeggs" />
     <Item identifier="huskeggs" />

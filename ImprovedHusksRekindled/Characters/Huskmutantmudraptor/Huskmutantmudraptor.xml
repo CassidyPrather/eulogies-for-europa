@@ -13,15 +13,15 @@
     <Limb name="LeftLeg" />
     <Limb name="RightLeg" />
   </health>
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/attack1.ogg" state="Attack" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/attack2.ogg" state="Attack" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/damage1.ogg" state="Damage" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/damage2.ogg" state="Damage" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/idle1.ogg" state="Idle" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/idle2.ogg" state="Idle" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/idle3.ogg" state="Idle" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/death1.ogg" state="Die" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/death2.ogg" state="Die" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/attack1.ogg" state="Attack" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/attack2.ogg" state="Attack" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/damage1.ogg" state="Damage" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/damage2.ogg" state="Damage" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/idle1.ogg" state="Idle" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/idle2.ogg" state="Idle" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/idle3.ogg" state="Idle" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/death1.ogg" state="Die" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantmudraptor/death2.ogg" state="Die" range="2000" volume="1" gender="None" />
   <inventory slots="Any, Any, Any, Any, Any" accessiblewhenalive="False" commonness="4">
     <Item identifier="huskeggs" />
     <Item identifier="huskeggs" />

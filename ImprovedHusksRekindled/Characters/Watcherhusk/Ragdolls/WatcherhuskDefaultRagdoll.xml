@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Ragdoll type="Watcher" texture="%ModDir:Improved Husks%/Characters/Watcherhusk/Watcherhusk.png" canentersubmarine="False" canwalk="False" spritesheetorientation="90" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" draggable="True" mainlimb="Torso" color="255,255,255,255">
+<Ragdoll type="Watcher" texture="%ModDir%/Characters/Watcherhusk/Watcherhusk.png" canentersubmarine="False" canwalk="False" spritesheetorientation="90" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" draggable="True" mainlimb="Torso" color="255,255,255,255">
   <collider radius="400" width="1" name="Main Collider" height="0" />
   <limb id="0" name="LowerBody" type="Torso" height="0" width="0" notes="" spriteorientation="NaN" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" attackpriority="1" steerforce="0" radius="350" density="10" ignorecollisions="False" angulardamping="7" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" scale="1" attackforcemultiplier="1" minseverancedamage="1" healthindex="0" friction="0.3" restitution="0.05" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkrotationin="0" blinkrotationout="45" blinkforce="50" blinktransitionin="Linear" blinktransitionout="Linear" blinkholdtime="0" inheritlimbdepth="None" onlyblinkinwater="False">
     <deformablesprite texture="" sourcerect="875,1,890,778" origin="0.48085704,0.45932937" depth="0.5" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
@@ -200,27 +200,27 @@
   <!--Big-ass Tentacle-->
   <!--Takes more damage if shot in the tentacle, however it increases its rage even more than normal.-->
   <limb id="21" name="Tentacle1" type="None" height="75" width="185" notes="" spriteorientation="NaN" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" attackpriority="1" steerforce="0" radius="0" density="10" ignorecollisions="False" angulardamping="7" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" scale="1" attackforcemultiplier="1" minseverancedamage="1" healthindex="0" friction="0.3" restitution="0.05" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkrotationin="0" blinkrotationout="45" blinkforce="50" blinktransitionin="Linear" blinktransitionout="Linear" blinkholdtime="0" inheritlimbdepth="None" onlyblinkinwater="False">
-    <deformablesprite texture="%ModDir:Improved Husks%/Characters/Watcherhusk/watcherstinger.png" sourcerect="0,0,353,261" origin="0.5,0.5" depth="0.51" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
+    <deformablesprite texture="%ModDir%/Characters/Watcherhusk/watcherstinger.png" sourcerect="0,0,353,261" origin="0.5,0.5" depth="0.51" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
     <damagemodifier damagemultiplier="0" armorsector="0,360" deflectprojectiles="False" afflictionidentifiers="burn,watchersgaze,psychosis" damagesound="" probabilitymultiplier="1" afflictiontypes="" damageparticle="" />
     <damagemodifier damagesound="LimbSlash" damagemultiplier="1.05" armorsector="0,360" deflectprojectiles="False" afflictionidentifiers="" afflictiontypes="damage" probabilitymultiplier="1" damageparticle="" />
-    <StatusEffect type="OnDamaged" target="Character" comparison="and">
+    <StatusEffect type="OnDamaged" comparison="and">
       <Conditional isdead="false" />
       <Conditional isunconscious="false" />
       <Affliction identifier="watcherdamage" amount="50" />
     </StatusEffect>
   </limb>
   <limb id="22" name="Tentacle2" type="None" height="55" width="350" notes="" spriteorientation="NaN" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" attackpriority="1" steerforce="0" radius="0" density="10" ignorecollisions="False" angulardamping="7" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" scale="1" attackforcemultiplier="1" minseverancedamage="1" healthindex="0" friction="0.3" restitution="0.05" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkrotationin="0" blinkrotationout="45" blinkforce="50" blinktransitionin="Linear" blinktransitionout="Linear" blinkholdtime="0" inheritlimbdepth="None" onlyblinkinwater="False">
-    <deformablesprite texture="%ModDir:Improved Husks%/Characters/Watcherhusk/watcherstinger.png" sourcerect="391,99,401,99" origin="0.5,0.5" depth="0.52" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
+    <deformablesprite texture="%ModDir%/Characters/Watcherhusk/watcherstinger.png" sourcerect="391,99,401,99" origin="0.5,0.5" depth="0.52" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
     <damagemodifier damagemultiplier="0" armorsector="0,360" deflectprojectiles="False" afflictionidentifiers="burn,watchersgaze,psychosis" damagesound="" probabilitymultiplier="1" afflictiontypes="" damageparticle="" />
     <damagemodifier damagesound="LimbSlash" damagemultiplier="1.05" armorsector="0,360" deflectprojectiles="False" afflictionidentifiers="" afflictiontypes="damage" probabilitymultiplier="1" damageparticle="" />
-    <StatusEffect type="OnDamaged" target="Character" comparison="and">
+    <StatusEffect type="OnDamaged" comparison="and">
       <Conditional isdead="false" />
       <Conditional isunconscious="false" />
       <Affliction identifier="watcherdamage" amount="50" />
     </StatusEffect>
   </limb>
   <limb id="23" name="Tentacle3" type="Head" height="55" width="400" notes="" spriteorientation="NaN" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" attackpriority="1" steerforce="0" radius="0" density="10" ignorecollisions="False" angulardamping="7" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" scale="1" attackforcemultiplier="1" minseverancedamage="1" healthindex="0" friction="0.3" restitution="0.05" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkrotationin="0" blinkrotationout="45" blinkforce="50" blinktransitionin="Linear" blinktransitionout="Linear" blinkholdtime="0" inheritlimbdepth="None" onlyblinkinwater="False">
-    <deformablesprite texture="%ModDir:Improved Husks%/Characters/Watcherhusk/watcherstinger.png" sourcerect="4,318,459,95" origin="0.5,0.5" depth="0.52" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
+    <deformablesprite texture="%ModDir%/Characters/Watcherhusk/watcherstinger.png" sourcerect="4,318,459,95" origin="0.5,0.5" depth="0.52" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
     <damagemodifier damagemultiplier="0" armorsector="0,360" deflectprojectiles="False" afflictionidentifiers="burn,watchersgaze,psychosis" damagesound="" probabilitymultiplier="1" afflictiontypes="" damageparticle="" />
     <damagemodifier damagesound="LimbSlash" damagemultiplier="1.05" armorsector="0,360" deflectprojectiles="False" afflictionidentifiers="" afflictiontypes="damage" probabilitymultiplier="1" damageparticle="" />
     <attack targettype="Any" priority="0.5" range="250" damagerange="300" duration="0.2" cooldown="5" secondarycooldown="1" afterattack="FallBackUntilCanAttack" structuredamage="25" itemdamage="25" force="60" torque="0" targetimpulse="100" targetforce="0" structuresoundtype="StructureSlash" context="Any" hitdetectiontype="Distance" stun="0" onlyhumans="False" applyforceonlimbs="0, 21, 22, 23" targetimpulseworld="0,0" targetforceworld="0,0" severlimbsprobability="0" stickchance="0" applyforcesonlyonce="True" cooldownrandomfactor="0.25" reverse="False" targetlimbtype="None" afterattackdelay="0" retreat="False" rootforceworldstart="0,0" rootforceworldmiddle="0,0" rootforceworldend="0,0" roottransitioneasing="Linear" fullspeedafterattack="False" levelwalldamage="25" ranged="False" avoidfriendlyfire="False" requiredangle="20" penetration="0" submarineimpactmultiplier="1" blink="False">
@@ -229,7 +229,7 @@
       <Affliction identifier="lacerations" strength="30" probability="1" />
       <Affliction identifier="huskinfection" strength="10" probability="0.8" />
     </attack>
-    <StatusEffect type="OnDamaged" target="Character" comparison="and">
+    <StatusEffect type="OnDamaged" comparison="and">
       <Conditional isdead="false" />
       <Conditional isunconscious="false" />
       <Affliction identifier="watcherdamage" amount="50" />

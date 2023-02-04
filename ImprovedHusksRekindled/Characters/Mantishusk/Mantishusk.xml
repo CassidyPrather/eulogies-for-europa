@@ -4,14 +4,14 @@
   <animations folder="default" />
   <health vitality="250" doesbleed="False" crushdepth="-Infinity" usehealthwindow="False" bleedingreduction="0" burnreduction="0" constanthealthregeneration="0" healthregenerationwheneating="0" stunimmunity="False" />
   <gibemitter particle="blackgib" particleamount="20" velocitymin="200" velocitymax="700" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/idle1.ogg" state="Idle" range="1100" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/idle2.ogg" state="Idle" range="1100" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/attack1.ogg" state="Attack" range="1400" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/attack2.ogg" state="Attack" range="1400" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/damage1.ogg" state="Damage" range="1200" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/damage2.ogg" state="Damage" range="1200" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/death.ogg" state="Die" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Mantishusk/death2.ogg" state="Die" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/idle1.ogg" state="Idle" range="1100" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/idle2.ogg" state="Idle" range="1100" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/attack1.ogg" state="Attack" range="1400" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/attack2.ogg" state="Attack" range="1400" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/damage1.ogg" state="Damage" range="1200" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/damage2.ogg" state="Damage" range="1200" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/death.ogg" state="Die" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Mantishusk/death2.ogg" state="Die" range="1500" volume="1" gender="None" />
   <Inventory slots="Any, Any" accessiblewhenalive="False" commonness="4">
     <!-- empty inventory -->
   </Inventory>

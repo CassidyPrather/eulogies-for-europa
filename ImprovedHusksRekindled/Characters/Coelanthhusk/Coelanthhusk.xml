@@ -6,14 +6,14 @@
   <gibemitter particle="blackgib" particleamount="30" velocitymin="200" velocitymax="1000" anglemin="0" anglemax="360" scalemin="1" scalemax="2" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <gibemitter particle="blackgib" particleamount="15" velocitymin="50" velocitymax="700" anglemin="0" anglemax="360" scalemin="1" scalemax="2" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <health vitality="400" doesbleed="True" crushdepth="-Infinity" usehealthwindow="False" bleedingreduction="0" burnreduction="0" constanthealthregeneration="0" healthregenerationwheneating="5" stunimmunity="False" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/attack1.ogg" state="Attack" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/attack2.ogg" state="Attack" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Coelanthhusk/death.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/attack1.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/attack2.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Coelanthhusk/death.ogg" state="Die" range="1000" volume="1" gender="None" />
   <Inventory slots="Any, Any" accessiblewhenalive="False" commonness="4"></Inventory>
   <Inventory slots="Any, Any" accessiblewhenalive="False" commonness="3">
     <Item identifier="huskeggs" />

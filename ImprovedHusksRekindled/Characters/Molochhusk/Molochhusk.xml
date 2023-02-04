@@ -15,18 +15,18 @@
     <Limb name="LeftLeg" />
     <Limb name="RightLeg" />
   </health>
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/attack1.ogg" state="Attack" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/attack2.ogg" state="Attack" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/attack3.ogg" state="Attack" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/attack4.ogg" state="Attack" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/damage1.ogg" state="Damage" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/damage2.ogg" state="Damage" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/idle1.ogg" state="Idle" range="8000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/idle2.ogg" state="Idle" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/idle3.ogg" state="Idle" range="8000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/idle4.ogg" state="Idle" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/death1.ogg" state="Die" range="5000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/death2.ogg" state="Die" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/attack1.ogg" state="Attack" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/attack2.ogg" state="Attack" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/attack3.ogg" state="Attack" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/attack4.ogg" state="Attack" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/damage1.ogg" state="Damage" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/damage2.ogg" state="Damage" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/idle1.ogg" state="Idle" range="8000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/idle2.ogg" state="Idle" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/idle3.ogg" state="Idle" range="8000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/idle4.ogg" state="Idle" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/death1.ogg" state="Die" range="5000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Molochhusk/death2.ogg" state="Die" range="5000" volume="1" gender="None" />
   <Inventory slots="Any, Any, Any" accessiblewhenalive="False" commonness="2">
     <Item identifier="huskeggs" />
     <Item identifier="hydroxyapatite" />
@@ -52,7 +52,7 @@
     <target tag="turret" state="Attack" priority="1" reactdistance="0" attackdistance="0" />
   </ai>
   <StatusEffect type="OnActive">
-    <Sound file="%ModDir:Improved Husks%/Characters/Molochhusk/moving.ogg" loop="true" range="5000" />
+    <Sound file="%ModDir%/Characters/Molochhusk/moving.ogg" loop="true" range="5000" />
   </StatusEffect>
   <StatusEffect type="Always" comparison="or">
     <!-- If this moloch is one of the black variants, apply an affliction which will enable the moloch's "glow in the dark" texture. -->

@@ -26,14 +26,14 @@
     <Item identifier="huskeggs" />
     <Item identifier="huskstinger" />
   </Inventory>
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/idle1.ogg" state="Idle" range="4000" volume="10" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/idle2.ogg" state="Idle" range="4000" volume="15" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/damage1.ogg" state="Damage" range="4000" volume="10" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/damage2.ogg" state="Damage" range="4000" volume="10" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/attack1.ogg" state="Attack" range="5000" volume="10" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/attack2.ogg" state="Attack" range="5000" volume="10" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/death1.ogg" state="Die" range="4000" volume="15" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Bonethresherhusk/death2.ogg" state="Die" range="4000" volume="15" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/idle1.ogg" state="Idle" range="4000" volume="10" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/idle2.ogg" state="Idle" range="4000" volume="15" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/damage1.ogg" state="Damage" range="4000" volume="10" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/damage2.ogg" state="Damage" range="4000" volume="10" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/attack1.ogg" state="Attack" range="5000" volume="10" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/attack2.ogg" state="Attack" range="5000" volume="10" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/death1.ogg" state="Die" range="4000" volume="15" gender="None" />
+  <sound file="%ModDir%/Characters/Bonethresherhusk/death2.ogg" state="Die" range="4000" volume="15" gender="None" />
   <bloodemitter particle="blackblood" anglemin="1" anglemax="2" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" particleamount="10" highqualitycollisiondetection="False" copyentityangle="False" />
   <bloodemitter particle="blackwaterblood" anglemin="1" anglemax="2" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" particleamount="1" highqualitycollisiondetection="False" copyentityangle="False" />
   <gibemitter particle="blackgib" anglemin="0" anglemax="360" scalemin="1" scalemax="2" velocitymin="200" velocitymax="1500" emitinterval="0" particlespersecond="0" particleamount="30" highqualitycollisiondetection="False" copyentityangle="False" />

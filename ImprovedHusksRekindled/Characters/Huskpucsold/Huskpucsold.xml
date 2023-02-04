@@ -68,7 +68,7 @@
     <Conditional isdead="False" />
     <Conditional huskdamaged="eq 0" />
     <Conditional healthpercentage="lte 20" />
-    <sound file="%ModDir:Improved Husks%/Characters/Huskpucsold/pucsheal.ogg" range="1000" volume="1" selectionmode="Random" dontmuffle="false" />
+    <sound file="%ModDir%/Characters/Huskpucsold/pucsheal.ogg" range="1000" volume="1" selectionmode="Random" dontmuffle="false" />
     <ReduceAffliction type="damage" strength="50" />
     <Affliction identifier="huskdamaged" amount="100" />
   </StatusEffect>

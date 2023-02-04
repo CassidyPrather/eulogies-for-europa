@@ -62,18 +62,18 @@
     <Item identifier="huskstinger" />
     <Item identifier="idcard" equip="true" />
   </inventory>
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/idle4.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/attack1.ogg" state="Attack" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/attack2.ogg" state="Attack" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/attack3.ogg" state="Attack" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/damage3.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/death1.ogg" state="Die" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/death2.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/idle4.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/attack1.ogg" state="Attack" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/attack2.ogg" state="Attack" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/attack3.ogg" state="Attack" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/damage3.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/death1.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanhuskold/death2.ogg" state="Die" range="1000" volume="1" gender="None" />
   <StatusEffect type="Always" target="This" comparison="and">
     <!-- Kickstart randomchance-->
     <Conditional isdead="False" />
@@ -87,8 +87,8 @@
     <Conditional huskdamaged="eq 0" />
     <Conditional huskrandomchance="gte 65" />
     <Conditional healthpercentage="lte 50" />
-    <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/death1.ogg" range="1000" volume="1" selectionmode="Random" dontmuffle="false" />
-    <sound file="%ModDir:Improved Husks%/Characters/Humanhuskold/death2.ogg" range="1000" volume="1" selectionmode="Random" dontmuffle="false" />
+    <sound file="%ModDir%/Characters/Humanhuskold/death1.ogg" range="1000" volume="1" selectionmode="Random" dontmuffle="false" />
+    <sound file="%ModDir%/Characters/Humanhuskold/death2.ogg" range="1000" volume="1" selectionmode="Random" dontmuffle="false" />
     <Affliction identifier="huskdamaged" amount="500" />
     <Affliction identifier="huskfakedeath" amount="5000" />
     <ReduceAffliction identifier="burn" strength="500" />

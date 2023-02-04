@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Ragdoll type="Moloch" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" canentersubmarine="False" canwalk="False" draggable="True" spritesheetorientation="0" texture="%ModDir:Improved Husks%/Characters/Molochhusk/Molochhusk.png" mainlimb="Torso" color="255,255,255,255">
+<Ragdoll type="Moloch" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" canentersubmarine="False" canwalk="False" draggable="True" spritesheetorientation="0" texture="%ModDir%/Characters/Molochhusk/Molochhusk.png" mainlimb="Torso" color="255,255,255,255">
   <collider radius="360" width="0" name="Main Collider" height="0" />
   <limb id="0" name="Core" type="Torso" radius="300" width="0" flip="True" healthindex="0" attackpriority="10" steerforce="0" stepoffset="0,0" height="0" mass="0" density="10" pullpos="0,0" refjoint="-1" ignorecollisions="False" friction="0.3" restitution="0.05" spriteorientation="NaN" mirrorvertically="False" mirrorhorizontally="False" hide="False" angulardamping="7" mouthpos="0,0" constanttorque="0" constantangle="0" scale="1" attackforcemultiplier="1" minseverancedamage="1" notes="" inheritlimbdepth="None" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkholdtime="0" blinkrotationin="0" blinkrotationout="45" blinkforce="50" onlyblinkinwater="False" blinktransitionin="Linear" blinktransitionout="Linear">
     <deformablesprite sourcerect="864,1216,864,832" depth="0.19" origin="0.48274615,0.40562853" subdivisions="15,15" texture="" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False">
@@ -14,7 +14,7 @@
       <Affliction identifier="bitewounds" strength="15" probability="1" />
       <Affliction identifier="huskinfection" strength="5" probability="0.5" />
       <StatusEffect type="OnUse" target="this" disabledeltatime="true">
-        <sound file="%ModDir:Improved Husks%/Characters/Molochhusk/bumpAttack.ogg" range="5000" volume="1" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Molochhusk/bumpAttack.ogg" range="5000" volume="1" dontmuffle="true" />
         <Explosion ignorecover="true" onlyinside="true" range="1000" force="1" flames="false" shockwave="true" sparks="false" flash="false" underwaterbubble="false" camerashake="0" playtinnitus="false" structuredamage="150" applyFireEffects="false">
           <Affliction identifier="stun" strength="5" probability="1" />
         </Explosion>
@@ -44,7 +44,7 @@
         <SpawnItem identifier="molochhusktendon" spawnposition="This" count="1" aimspread="5" rotationtype="Target" rotation="0" />
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
-        <Sound file="%ModDir:Improved Husks%/Characters/Molochhusk/launch.ogg" range="10000" selectionmode="random" />
+        <Sound file="%ModDir%/Characters/Molochhusk/launch.ogg" range="10000" selectionmode="random" />
       </StatusEffect>
     </attack>
   </limb>

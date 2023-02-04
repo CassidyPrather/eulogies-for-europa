@@ -12,17 +12,17 @@
     <Limb name="LeftArm" />
     <Limb name="RightArm" />
   </health>
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/idle1.ogg" state="Idle" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/idle2.ogg" state="Idle" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/idle3.ogg" state="Idle" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/attack1.ogg" state="Attack" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/attack2.ogg" state="Attack" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/attack3.ogg" state="Attack" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/damage1.ogg" state="Damage" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/damage2.ogg" state="Damage" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/damage3.ogg" state="Damage" range="20000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/death1.ogg" state="Die" range="30000" volume="1" gender="None" dontmuffle="true" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/death2.ogg" state="Die" range="30000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/idle1.ogg" state="Idle" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/idle2.ogg" state="Idle" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/idle3.ogg" state="Idle" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/attack1.ogg" state="Attack" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/attack2.ogg" state="Attack" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/attack3.ogg" state="Attack" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/damage1.ogg" state="Damage" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/damage2.ogg" state="Damage" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/damage3.ogg" state="Damage" range="20000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/death1.ogg" state="Die" range="30000" volume="1" gender="None" dontmuffle="true" />
+  <sound file="%ModDir%/Characters/Endwormhusk/death2.ogg" state="Die" range="30000" volume="1" gender="None" dontmuffle="true" />
   <ai combatstrength="10000" sight="10" hearing="10" aggressionhurt="100" aggressiongreed="0" fleehealththreshold="0" attackwhenprovoked="False" aggressiveboarding="False" targetouterwalls="True" avoidgunfire="True" enforceaggressivebehaviorformissions="True" randomattack="False" avoidabyss="False" stayinabyss="False" avoidtime="3" minfleetime="20" canopendoors="False" keepdoorsclosed="False" patrolflooded="False" patroldry="False" startaggression="0" maxaggression="100" aggressioncumulation="0" walltargetingmethod="Target">
     <target tag="endworm" state="Attack" priority="1000" reactdistance="2000" attackdistance="1000" timer="0" ignorecontained="False" attackpattern="Straight" circlerotationspeed="0.4" circlestrikedistancemultiplier="3" circlemaxrandomoffset="0" circlestartdistance="2500" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" sweepdistance="0" sweepstrength="10" sweepspeed="1" />
     <target tag="charybdis" state="Attack" priority="1000" reactdistance="2000" attackdistance="1000" timer="0" ignorecontained="False" attackpattern="Straight" circlerotationspeed="0.4" circlestrikedistancemultiplier="3" circlemaxrandomoffset="0" circlestartdistance="2500" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" sweepdistance="0" sweepstrength="10" sweepspeed="1" />
@@ -36,6 +36,6 @@
     <target tag="room" state="Attack" priority="1" reactdistance="0" attackdistance="0" timer="0" ignorecontained="False" attackpattern="Circle" circlerotationspeed="0.4" circlestrikedistancemultiplier="3" circlemaxrandomoffset="0" circlestartdistance="2500" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" sweepdistance="0" sweepstrength="10" sweepspeed="1" />
   </ai>
   <StatusEffect type="OnActive" target="this">
-    <Sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/husk_ambience.ogg" loop="true" range="20000" dontmuffle="true" />
+    <Sound file="%ModDir%/Characters/Endwormhusk/husk_ambience.ogg" loop="true" range="20000" dontmuffle="true" />
   </StatusEffect>
 </Character>

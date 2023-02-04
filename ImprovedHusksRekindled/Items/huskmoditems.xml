@@ -15,15 +15,15 @@
       <Item identifier="huskeggs" copycondition="true" mincondition="0.1" />
       <Item identifier="huskeggs" copycondition="true" mincondition="0.1" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:Improved Husks%/Items/unstablehuskeggsinventory.png" sourcerect="0,0,60,60" origin="0.5,0.5" />
-    <Sprite texture="%ModDir:Improved Husks%/Items/unstablehuskeggs.png" sourcerect="0,0,40,76" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/unstablehuskeggsinventory.png" sourcerect="0,0,60,60" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/unstablehuskeggs.png" sourcerect="0,0,40,76" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="70" density="20" />
     <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="10" reload="1.0">
       <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect type="OnUse" target="Character">
+      <StatusEffect type="OnUse" target="UseTarget">
         <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
       </StatusEffect>
-      <StatusEffect type="OnUse" target="Character" comparison="and">
+      <StatusEffect type="OnUse" target="UseTarget" comparison="and">
         <!-- No conditional to check the husk infection's progress -->
         <!-- <Conditional huskinfection="lt 0.1"  -->
         <Conditional speciesname="neq peanut" />
@@ -32,17 +32,17 @@
         <Affliction identifier="huskinfection" amount="50" />
         <Affliction identifier="stun" amount="0.5" />
       </StatusEffect>
-      <StatusEffect type="OnUse" target="Character" comparison="or">
+      <StatusEffect type="OnUse" target="UseTarget" comparison="or">
         <!-- For pets, we don't want players to be able to infect them to the point where the husk infection reaches 100, because then they'll explode upon dying instead of turning into husks. -->
         <Conditional speciesname="eq peanut" />
         <Conditional speciesname="eq orangeboy" />
         <Conditional speciesname="eq psilotoad" />
         <Affliction identifier="huskinfection" amount="25" />
         <Affliction identifier="stun" amount="0.5" />
-        <Sound file="%ModDir:Improved Husks%/Characters/Pets/infect.ogg" range="1000" />
+        <Sound file="%ModDir%/Characters/Pets/infect.ogg" range="1000" />
         <!-- Play a special sound when a pet is infected through unstable husk eggs because they will become husks almost immediately, and we want people to know about it.-->
       </StatusEffect>
-      <StatusEffect type="OnUse" target="Character">
+      <StatusEffect type="OnUse" target="UseTarget">
         <Conditional speciesname="crawlerhusk" />
         <Conditional speciesname="crawler_hatchlinghusk" />
         <Conditional speciesname="swarmcrawlerhusk" />
@@ -83,28 +83,28 @@
     <Deconstruct time="20">
       <Item identifier="huskeggs" copycondition="true" mincondition="0.1" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:Improved Husks%/Items/huskmutantembryoinventory.png" sourcerect="0,0,60,60" origin="0.5,0.5" />
-    <Sprite texture="%ModDir:Improved Husks%/Items/huskmutantembryo.png" sourcerect="0,0,40,76" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/huskmutantembryoinventory.png" sourcerect="0,0,60,60" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/huskmutantembryo.png" sourcerect="0,0,40,76" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="70" density="0" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,-70" handle1="0,20" handle2="0,0" />
     <LightComponent range="150" castshadows="True" drawbehindsubs="False" ison="True" blinkfrequency="0" lightcolor="155,155,0,100" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="False" msg="">
-      <Sprite texture="%ModDir:Improved Husks%/Items/huskmutantembryo.png" sourcerect="0,0,40,76" depth="0.1" origin="0.5,0.5" alpha="0.5" />
+      <Sprite texture="%ModDir%/Items/huskmutantembryo.png" sourcerect="0,0,40,76" depth="0.1" origin="0.5,0.5" alpha="0.5" />
     </LightComponent>
   </Item>
   <Item name="" identifier="calyxinjector" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" scale="1">
     <PreferredContainer primary="locker,weaponcontainer,medcab" />
-    <PreferredContainer secondary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.3" />
-    <PreferredContainer secondary="wreckarmcab,wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.2" />
-    <InventoryIcon texture="%ModDir:Improved Husks%/Items/calyxinjectorinventory.png" sourcerect="0,0,64,64" origin="0.49928394,0.5012731" />
-    <Price baseprice="2000" soldeverywhere="false">
+    <PreferredContainer secondary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.06" />
+    <PreferredContainer secondary="wreckarmcab,wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.04" />
+    <InventoryIcon texture="%ModDir%/Items/calyxinjectorinventory.png" sourcerect="0,0,64,64" origin="0.49928394,0.5012731" />
+    <Price baseprice="4000" soldeverywhere="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.0" sold="false" />
       <Price storeidentifier="merchantcity" multiplier="1.0" sold="false" />
-      <Price storeidentifier="merchantresearch" multiplier="1.5" sold="true" minavailable="2" />
+      <Price storeidentifier="merchantresearch" multiplier="1.5" sold="true" minavailable="1" />
       <Price storeidentifier="merchantmilitary" multiplier="1.1" sold="false" />
       <Price storeidentifier="merchantmine" multiplier="1.0" sold="false" />
       <Price storeidentifier="merchantmedical" multiplier="1.0" sold="false" />
     </Price>
-    <Sprite texture="%ModDir:Improved Husks%/Items/calyxinjector.png" sourcerect="0,13,76,20" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/calyxinjector.png" sourcerect="0,13,76,20" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="17" density="50" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="15,-100" handle1="-15,0" />
   </Item>
@@ -115,15 +115,15 @@
       <RequiredItem identifier="huskmutantembryo" />
       <RequiredItem identifier="antibloodloss2" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir:Improved Husks%/Items/calyxinjectorsymbioticinventory.png" sourcerect="0,0,64,64" origin="0.49928394,0.5012731" />
-    <Sprite texture="%ModDir:Improved Husks%/Items/calyxinjectorsymbiotic.png" sourcerect="0,13,76,20" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/calyxinjectorsymbioticinventory.png" sourcerect="0,0,64,64" origin="0.49928394,0.5012731" />
+    <Sprite texture="%ModDir%/Items/calyxinjectorsymbiotic.png" sourcerect="0,13,76,20" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="17" density="50" />
     <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="5,-15" handle1="-10,3" holdangle="270" reload="1.0">
       <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect type="OnUse" target="Character">
-        <Sound file="%ModDir:Improved Husks%/Items/symbiotichuskinject.ogg" range="750" />
+      <StatusEffect type="OnUse" target="UseTarget">
+        <Sound file="%ModDir%/Items/symbiotichuskinject.ogg" range="750" />
       </StatusEffect>
-      <StatusEffect type="OnUse" target="Character">
+      <StatusEffect type="OnUse" target="UseTarget">
         <Conditional speciesname="human" />
         <Affliction identifier="symbiotichusk" amount="200" />
       </StatusEffect>
@@ -141,15 +141,15 @@
       <RequiredItem identifier="unstablehuskeggs" />
       <RequiredItem identifier="stabilozine" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir:Improved Husks%/Items/calyxinjectorboosterinventory.png" sourcerect="0,0,64,64" origin="0.49928394,0.5012731" />
-    <Sprite texture="%ModDir:Improved Husks%/Items/calyxinjectorbooster.png" sourcerect="0,13,76,20" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/calyxinjectorboosterinventory.png" sourcerect="0,0,64,64" origin="0.49928394,0.5012731" />
+    <Sprite texture="%ModDir%/Items/calyxinjectorbooster.png" sourcerect="0,13,76,20" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="17" density="50" />
     <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="5,-15" handle1="-10,3" holdangle="270" reload="1.0">
       <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect type="OnUse" target="Character">
-        <Sound file="%ModDir:Improved Husks%/Items/symbiotichuskinject.ogg" range="750" />
+      <StatusEffect type="OnUse" target="UseTarget">
+        <Sound file="%ModDir%/Items/symbiotichuskinject.ogg" range="750" />
       </StatusEffect>
-      <StatusEffect type="OnUse" target="Character">
+      <StatusEffect type="OnUse" target="UseTarget">
         <Affliction identifier="boosterhusk" amount="50" />
       </StatusEffect>
       <!-- Remove the item when fully used -->
@@ -165,8 +165,8 @@
       <RequiredItem identifier="unstablehuskeggs" />
       <RequiredItem identifier="huskstinger" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir:Improved Husks%/Items/unstablestingerinventory.png" sourcerect="0,0,72,64" origin="0.5,0.5" />
-    <Sprite texture="%ModDir:Improved Husks%/Items/unstablestinger.png" sourcerect="1,3,83,12" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/unstablestingerinventory.png" sourcerect="0,0,72,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/unstablestinger.png" sourcerect="1,3,83,12" depth="0.55" origin="0.5,0.5" />
     <Body height="10" width="90" density="50" />
     <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="30,5" handle1="-20,0" holdangle="25" reload="1.0" range="50" combatpriority="10" msg="ItemMsgPickUpSelect">
       <Attack structuredamage="5" stun="0.5" targetimpulse="15">
@@ -211,7 +211,7 @@
     </LightComponent>
   </Item>
   <Item name="" identifier="endwormhuskprojectile" category="Misc" scale="1.0" sonarsize="2" health="50" hideinmenus="true" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" damagedbyrepairtools="true">
-    <Sprite texture="%ModDir:Improved Husks%/Characters/Endwormhusk/Endwormhusk.png" sourcerect="163,2386,704,414" depth="0" />
+    <Sprite texture="%ModDir%/Characters/Endwormhusk/Endwormhusk.png" sourcerect="163,2386,704,414" depth="0" />
     <Body width="345" height="185" density="20" />
     <Projectile characterusable="false" launchimpulse="150" maxtargetstohit="2" sticktocharacters="false" sticktoitems="false" sticktostructures="true" stickpermanently="true">
       <Attack structuredamage="25" severlimbsprobability="0">
@@ -251,7 +251,7 @@
       </StatusEffect>
     </Projectile>
     <LightComponent range="150" castshadows="True" drawbehindsubs="False" ison="True" blinkfrequency="0" lightcolor="255,255,0,60" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="False" msg="">
-      <Sprite texture="%ModDir:Improved Husks%/Characters/Endwormhusk/Endwormhusk.png" sourcerect="163,2386,704,414" depth="0" origin="0.5,0.5" alpha="0.5" />
+      <Sprite texture="%ModDir%/Characters/Endwormhusk/Endwormhusk.png" sourcerect="163,2386,704,414" depth="0" origin="0.5,0.5" alpha="0.5" />
     </LightComponent>
   </Item>
   <Item name="endwormhuskexplosion" identifier="endwormhuskexplosion" Scale="1" tags="" sonarsize="0" hideinmenus="true" health="5">
@@ -272,13 +272,13 @@
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="50" scalemin="4.5" scalemax="6.0" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Explosion range="600" structuredamage="100" itemdamage="100" smoke="false" flames="false" force="5" sparks="false" shockwave="false" underwaterbubble="false" camerashake="0.4" flash="false" />
         <Explosion range="1000" structuredamage="25" itemdamage="50" smoke="false" flames="false" force="3" sparks="false" shockwave="false" underwaterbubble="false" camerashake="0.1" flash="false" />
-        <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/endwormacidexplosion.ogg" range="3000" volume="1" />
+        <sound file="%ModDir%/Characters/Endwormhusk/endwormacidexplosion.ogg" range="3000" volume="1" />
         <RemoveItem />
       </StatusEffect>
     </ItemComponent>
   </Item>
   <Item name="mutantmudraptorbile" identifier="mutantmudraptorbile" category="Misc" scale="0.5" sonarsize="2" health="5" hideinmenus="true">
-    <Sprite texture="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/huskmutantmudraptor.png" sourcerect="400,405,39,39" depth="0.55" />
+    <Sprite texture="%ModDir%/Characters/Huskmutantmudraptor/huskmutantmudraptor.png" sourcerect="400,405,39,39" depth="0.55" />
     <Body width="70" height="70" density="20" />
     <Projectile characterusable="false" launchimpulse="15" maxtargetstohit="1" sticktocharacters="false" sticktoitems="false" sticktostructures="false" stickpermanently="false">
       <Attack structuredamage="35" severlimbsprobability="0">
@@ -287,7 +287,7 @@
         <affliction identifier="huskinfection" strength="10" />
       </Attack>
       <StatusEffect type="OnImpact" target="This" condition="-100">
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/spithit.ogg" />
+        <sound file="%ModDir%/Characters/Huskmutantmudraptor/spithit.ogg" />
       </StatusEffect>
       <StatusEffect type="OnActive" target="This" lifetime="0.5">
         <ParticleEmitter particle="huskgoo" copyentityangle="true" anglemin="0" anglemax="0" particleamount="50" emitinterval="0.1" particlespersecond="35" velocitymin="-10" velocitymax="-100" scalemin="0.8" scalemax="1.2" />
@@ -311,7 +311,7 @@
     </Projectile>
   </Item>
   <Item name="headpod" identifier="headpod" category="Misc" scale="0.5" sonarsize="2" health="3" hideinmenus="true">
-    <Sprite texture="%ModDir:Improved Husks%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.55" />
+    <Sprite texture="%ModDir%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.55" />
     <Body width="85" height="85" density="10" />
     <Projectile characterusable="false" launchimpulse="15" maxtargetstohit="1" sticktocharacters="false" sticktoitems="false" sticktostructures="false" stickpermanently="false">
       <Attack structuredamage="0" severlimbsprobability="0">
@@ -327,16 +327,16 @@
         <ParticleEmitter particle="huskmutantacidsplash" copyentityangle="true" anglemin="0" anglemax="0" particleamount="30" emitinterval="0.1" particlespersecond="25" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
         <ParticleEmitter particle="huskgoo" copyentityangle="true" anglemin="0" anglemax="0" particleamount="50" emitinterval="0.1" particlespersecond="35" velocitymin="-10" velocitymax="-100" scalemin="0.8" scalemax="1.2" />
         <SpawnCharacter speciesname="huskmutanthumanheadthrown" count="1" spread="0" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthunter/spawnhead.ogg" volume="0.7" />
+        <sound file="%ModDir%/Characters/Huskmutanthunter/spawnhead.ogg" volume="0.7" />
         <Remove />
       </StatusEffect>
     </Projectile>
     <LightComponent range="50" castshadows="True" drawbehindsubs="False" ison="True" blinkfrequency="0" lightcolor="255,255,0,30" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="False" msg="">
-      <Sprite texture="%ModDir:Improved Husks%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.1" origin="0.5,0.5" alpha="0.5" />
+      <Sprite texture="%ModDir%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.1" origin="0.5,0.5" alpha="0.5" />
     </LightComponent>
   </Item>
   <Item name="hammerheadpod" identifier="hammerheadpod" category="Misc" scale="0.5" sonarsize="2" health="3" hideinmenus="true">
-    <Sprite texture="%ModDir:Improved Husks%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.55" />
+    <Sprite texture="%ModDir%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.55" />
     <Body width="85" height="85" density="10" />
     <Projectile characterusable="false" launchimpulse="25" maxtargetstohit="1" sticktocharacters="false" sticktoitems="false" sticktostructures="false" stickpermanently="false">
       <Attack structuredamage="65" severlimbsprobability="0">
@@ -362,7 +362,7 @@
       </StatusEffect>
     </Projectile>
     <LightComponent range="50" castshadows="True" drawbehindsubs="False" ison="True" blinkfrequency="0" lightcolor="255,255,0,30" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="False" msg="">
-      <Sprite texture="%ModDir:Improved Husks%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.1" origin="0.5,0.5" alpha="0.5" />
+      <Sprite texture="%ModDir%/Characters/Mudraptor_hatchlinghusk/Mudraptorhatchlinghusk.png" sourcerect="625,214,147,187" depth="0.1" origin="0.5,0.5" alpha="0.5" />
     </LightComponent>
   </Item>
   <!-- _____________________________________________________________________________________________ -->
@@ -587,7 +587,7 @@
       <StatusEffect type="OnBroken" target="This">
         <ParticleEmitter particle="blackblood" particlespersecond="150" scalemin="1.5" scalemax="2.5" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="50" scalemin="0.4" scalemax="1" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthuman/dismember.ogg" range="1000" volume="1" />
+        <sound file="%ModDir%/Characters/Huskmutanthuman/dismember.ogg" range="1000" volume="1" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -607,7 +607,7 @@
         <ParticleEmitter particle="blackblood" particlespersecond="150" scalemin="3" scalemax="3.2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="50" scalemin="1.2" scalemax="1.6" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Explosion range="350" structuredamage="55" itemdamage="30" smoke="false" flames="false" force="0" sparks="false" shockwave="false" underwaterbubble="false" camerashake="0.2" flash="false" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocooncrawler/acidexplosion.ogg" range="1500" volume="1" />
+        <sound file="%ModDir%/Characters/Huskmutantcocooncrawler/acidexplosion.ogg" range="1500" volume="1" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -627,7 +627,7 @@
         <ParticleEmitter particle="blackblood" particlespersecond="150" scalemin="3.6" scalemax="3.9" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="50" scalemin="1.5" scalemax="1.9" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Explosion range="500" structuredamage="65" itemdamage="40" smoke="false" flames="false" force="0" sparks="false" shockwave="false" underwaterbubble="false" camerashake="0.2" flash="false" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/bigacidexplosion.ogg" range="1500" volume="1" />
+        <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/bigacidexplosion.ogg" range="1500" volume="1" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -641,7 +641,7 @@
       <StatusEffect type="OnBroken" target="This">
         <ParticleEmitter particle="blackblood" particlespersecond="150" scalemin="3.2" scalemax="3.6" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="bloodsplash" particlespersecond="50" scalemin="1.2" scalemax="1.4" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
-        <sound file="%ModDir:Improved Husks%/Items/grow.ogg" range="1500" volume="1" />
+        <sound file="%ModDir%/Items/grow.ogg" range="1500" volume="1" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -678,9 +678,9 @@
         <Affliction identifier="huskinfectioncontagion" strength="25" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
-        <sound file="%ModDir:Improved Husks%/Items/Huskclicking1.ogg" range="500" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Items/Huskclicking2.ogg" range="500" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Items/Huskclicking3.ogg" range="500" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Items/Huskclicking1.ogg" range="500" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Items/Huskclicking2.ogg" range="500" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Items/Huskclicking3.ogg" range="500" volume="1" selectionmode="Random" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -714,13 +714,13 @@
         <Affliction identifier="watcherhuskbroadcast" amount="150" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
-        <sound file="%ModDir:Improved Husks%/Characters/Watcherhusk/screech1.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Watcherhusk/screech2.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Watcherhusk/screech1.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Watcherhusk/screech2.ogg" range="10000" volume="1" selectionmode="Random" dontmuffle="true" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This" delay="0.1">
         <particleemitter particle="watcherscreechparticle" particleamount="45" scalemin="1" scalemax="1" />
-        <sound file="%ModDir:Improved Husks%/Characters/Watcherhusk/screech1far.ogg" range="20000" volume="1" selectionmode="Random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Watcherhusk/screech2far.ogg" range="20000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Watcherhusk/screech1far.ogg" range="20000" volume="1" selectionmode="Random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Watcherhusk/screech2far.ogg" range="20000" volume="1" selectionmode="Random" dontmuffle="true" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -732,9 +732,9 @@
       <!-- reduce condition to remove the emitter shortly after spawning it -->
       <StatusEffect type="Always" target="This" condition="-50" />
       <StatusEffect type="OnBroken" target="This">
-        <sound file="%ModDir:Improved Husks%/Items/Huskclicking1.ogg" range="200" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Items/Huskclicking2.ogg" range="200" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Items/Huskclicking3.ogg" range="200" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Items/Huskclicking1.ogg" range="200" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Items/Huskclicking2.ogg" range="200" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Items/Huskclicking3.ogg" range="200" volume="1" selectionmode="Random" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -749,8 +749,8 @@
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="2" scalemax="3" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgoo" particlespersecond="3" scalemin="0.7" scalemax="1" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantarmored/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantarmored/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantarmored/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantarmored/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -762,7 +762,7 @@
       <!-- reduce condition to remove the emitter shortly after spawning it -->
       <StatusEffect type="Always" target="This" condition="-50" />
       <StatusEffect type="OnBroken" target="This">
-        <Sound file="%ModDir:Improved Husks%/Characters/Charybdishusk/spawnmonster.ogg" range="1000" />
+        <Sound file="%ModDir%/Characters/Charybdishusk/spawnmonster.ogg" range="1000" />
         <ParticleEmitter particle="blackwaterblood" particleamount="10" scalemin="2" scalemax="4" velocitymin="0" velocitymax="20" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgib" particleamount="15" scalemin="2" scalemax="4" velocitymin="0" velocitymax="20" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="2" scalemax="3" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
@@ -790,12 +790,12 @@
     </ItemComponent>
   </Item>
   <Item name="" identifier="molochhusktendon" nameidentifier="fleshguntendon1" tags="molochhuskappendage" health="50" hideinmenus="true" category="" sonarsize="5" scale="1" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" impactsoundtag="impact_soft">
-    <InventoryIcon texture="%ModDir:Improved Husks%/Characters/Molochhusk/Molochhusk.png" sourcerect="561,1448,198,67" origin="0.5,0.5" />
-    <Sprite texture="%ModDir:Improved Husks%/Characters/Molochhusk/Molochhusk.png" sourcerect="1,1,1,1" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Characters/Molochhusk/Molochhusk.png" sourcerect="561,1448,198,67" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Characters/Molochhusk/Molochhusk.png" sourcerect="1,1,1,1" depth="0.55" origin="0.5,0.5" />
     <Body radius="10" density="35" />
     <Rope targetpullforce="0" projectilepullforce="0" maxlength="10000" snaponcollision="true" spritewidth="50" tile="true">
-      <Sprite texture="%ModDir:Improved Husks%/Characters/Molochhusk/Molochhusk.png" sourcerect="112,1470,421,76" depth="0.57" origin="0.5,0.5" />
-      <EndSprite texture="%ModDir:Improved Husks%/Characters/Molochhusk/Molochhusk.png" sourcerect="561,1448,198,67" depth="0.56" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Characters/Molochhusk/Molochhusk.png" sourcerect="112,1470,421,76" depth="0.57" origin="0.5,0.5" />
+      <EndSprite texture="%ModDir%/Characters/Molochhusk/Molochhusk.png" sourcerect="561,1448,198,67" depth="0.56" origin="0.5,0.5" />
       <!-- Automatically snap after 30 seconds -->
       <StatusEffect type="OnUse" target="This" Snapped="true" delay="30" />
       <!-- Remove 1 second after snapping -->
@@ -826,14 +826,14 @@
     <Projectile characterusable="false" launchimpulse="150.0" sticktostructures="true" stickpermanently="true" maxtargetstohit="2">
       <Attack structuredamage="250" />
       <StatusEffect type="OnImpact" target="This">
-        <Sound file="%ModDir:Improved Husks%/Characters/Molochhusk/hit.ogg" range="10000" selectionmode="Random" />
+        <Sound file="%ModDir%/Characters/Molochhusk/hit.ogg" range="10000" selectionmode="Random" />
         <ParticleEmitter particle="blackblood" particleamount="50" scalemin="2" scalemax="3" velocitymin="100" velocitymax="500" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="heavygib" drawontop="true" particleamount="3" scalemin="2" scalemax="3" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgib" particleamount="20" scalemin="2" scalemax="3" velocitymin="100" velocitymax="300" anglemin="0" anglemax="360" />
       </StatusEffect>
       <StatusEffect type="Always" delay="3" checkconditionalalways="true" target="This">
         <Conditional IsStuckToTarget="true" />
-        <Sound file="%ModDir:Improved Husks%/Characters/Molochhusk/pull.ogg" range="10000" loop="true" />
+        <Sound file="%ModDir%/Characters/Molochhusk/pull.ogg" range="10000" loop="true" />
       </StatusEffect>
     </Projectile>
   </Item>
@@ -846,8 +846,8 @@
       <StatusEffect type="OnBroken" target="This">
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="2" scalemax="3" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgoo" particlespersecond="3" scalemin="0.7" scalemax="1" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthunter/spawnclose.ogg" range="2000" volume="1" selectionmode="All" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthunter/spawnfar.ogg" range="10000" volume="1" dontmuffle="true" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutanthunter/spawnclose.ogg" range="2000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutanthunter/spawnfar.ogg" range="10000" volume="1" dontmuffle="true" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -862,8 +862,8 @@
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="2" scalemax="3" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgoo" particlespersecond="3" scalemin="0.7" scalemax="1" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcrawler/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantcrawler/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantcrawler/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -878,8 +878,8 @@
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="2" scalemax="3" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgoo" particlespersecond="3" scalemin="0.7" scalemax="1" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthuman/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthuman/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutanthuman/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutanthuman/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -894,8 +894,8 @@
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="4" scalemax="5" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgoo" particlespersecond="3" scalemin="1.8" scalemax="1.9" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantbonethresher/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantbonethresher/spawnfar.ogg" range="25000" volume="1" dontmuffle="true" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantbonethresher/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantbonethresher/spawnfar.ogg" range="25000" volume="1" dontmuffle="true" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -910,8 +910,8 @@
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="4" scalemax="5" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgoo" particlespersecond="3" scalemin="1.8" scalemax="2.0" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanttigerthresher/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanttigerthresher/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutanttigerthresher/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutanttigerthresher/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -932,7 +932,7 @@
         <SpawnItem identifier="huskmutanthumanheadhijackparticle" spawnposition="This" count="4" spread="75" />
         <SpawnItem identifier="huskmutanthumanheadhijackparticle" spawnposition="This" count="4" spread="95" />
         <SpawnItem identifier="huskmutanthumanheadhijackparticle" spawnposition="This" count="4" spread="105" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocooncrawler/spawn.ogg" range="2000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantcocooncrawler/spawn.ogg" range="2000" volume="1" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -954,7 +954,7 @@
         <SpawnItem identifier="huskmutanthumanheadhijackparticle" spawnposition="This" count="7" spread="100" />
         <SpawnItem identifier="huskmutanthumanheadhijackparticle" spawnposition="This" count="7" spread="155" />
         <SpawnItem identifier="huskmutanthumanheadhijackparticle" spawnposition="This" count="7" spread="175" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/bigspawn.ogg" range="3000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/bigspawn.ogg" range="3000" volume="1" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -969,8 +969,8 @@
         <ParticleEmitter particle="huskmutantacidsplash" particlespersecond="100" scalemin="2" scalemax="3" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackgoo" particlespersecond="3" scalemin="0.7" scalemax="1" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="shockwave" particleamount="1" scalemin="10" scalemax="10" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutantmudraptor/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantmudraptor/spawnclose.ogg" range="5000" volume="1" selectionmode="All" />
+        <sound file="%ModDir%/Characters/Huskmutantmudraptor/spawnfar.ogg" range="20000" volume="1" dontmuffle="true" selectionmode="All" />
         <Remove />
       </StatusEffect>
     </ItemComponent>
@@ -995,9 +995,9 @@
       <!-- reduce condition to remove the emitter shortly after spawning it -->
       <StatusEffect type="Always" target="This" condition="-50" />
       <StatusEffect type="OnBroken" target="This">
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackstart.ogg" range="700" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackstart1.ogg" range="700" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackstart2.ogg" range="700" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackstart.ogg" range="700" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackstart1.ogg" range="700" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackstart2.ogg" range="700" volume="1" selectionmode="Random" />
         <ParticleEmitter particle="bloodsplash" particlespersecond="250" scalemin="1" scalemax="1.5" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackblood" particlespersecond="250" scalemin="1" scalemax="1.5" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Remove />
@@ -1012,8 +1012,8 @@
       <!-- reduce condition to remove the emitter shortly after spawning it -->
       <StatusEffect type="Always" target="This" condition="-50" />
       <StatusEffect type="OnBroken" target="This">
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackdie.ogg" range="700" volume="0.6" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackdie1.ogg" range="700" volume="0.6" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackdie.ogg" range="700" volume="0.6" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackdie1.ogg" range="700" volume="0.6" selectionmode="Random" />
         <ParticleEmitter particle="bloodsplash" particlespersecond="150" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackblood" particlespersecond="150" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Remove />
@@ -1055,7 +1055,7 @@
       <!-- reduce condition to remove the emitter shortly after spawning it -->
       <StatusEffect type="Always" target="This" condition="-50" />
       <StatusEffect type="OnBroken" target="This">
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackendfar.ogg" range="10000" volume="1" dontmuffle="true" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackendfar.ogg" range="10000" volume="1" dontmuffle="true" selectionmode="Random" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
         <ParticleEmitter particle="shockwave" particlespersecond="1" particleamount="1" scalemin="0.9" scalemax="1" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" copyentityangle="false" />
@@ -1064,8 +1064,8 @@
         <ParticleEmitter particle="waterblood" particlespersecond="100" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackwaterblood" particlespersecond="100" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Remove />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackend.ogg" range="1500" volume="0.7" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/severedheadhijackend2.ogg" range="1500" volume="0.7" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackend.ogg" range="1500" volume="0.7" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskmutanthumanhead/severedheadhijackend2.ogg" range="1500" volume="0.7" selectionmode="Random" />
       </StatusEffect>
     </ItemComponent>
   </Item>
@@ -1081,8 +1081,8 @@
         <ParticleEmitter particle="waterblood" particlespersecond="100" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="blackwaterblood" particlespersecond="100" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Remove />
-        <Sound file="%ModDir:Improved Husks%/Characters/Humanhusk/huskspawn.ogg" range="1500" selectionmode="All" />
-        <Sound file="%ModDir:Improved Husks%/Characters/Humanhusk/huskspawnfar.ogg" range="10000" dontmuffle="true" selectionmode="All" />
+        <Sound file="%ModDir%/Characters/Humanhusk/huskspawn.ogg" range="1500" selectionmode="All" />
+        <Sound file="%ModDir%/Characters/Humanhusk/huskspawnfar.ogg" range="10000" dontmuffle="true" selectionmode="All" />
       </StatusEffect>
     </ItemComponent>
   </Item>
@@ -1182,7 +1182,7 @@
       </Containable>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="mediummodmudraptoregg" nameidentifier="mudraptoregg" hideinmenus="true" tags="smallitem,ignorebyai" health="50" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" damagedbyrepairtools="true" category="Misc" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="mediummodmudraptoregg" nameidentifier="mudraptoregg" hideinmenus="true" tags="smallitem,ignorebyai,mudraptoregg" health="50" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" damagedbyrepairtools="true" category="Misc" scale="0.5" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="1600" soldeverywhere="false">
       <Price storeidentifier="merchantoutpost" multiplier="0.85" sold="false" />

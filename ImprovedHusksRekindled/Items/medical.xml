@@ -39,7 +39,15 @@
         <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true">
           <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
         </StatusEffect>
-        <StatusEffect tags="medical" type="OnUse" target="Character">
+        <StatusEffect tags="medical" type="OnSuccess" target="UseTarget" duration="1">
+          <Conditional huskinfection="lt 100.0" />
+          <ReduceAffliction identifier="huskinfection" amount="100" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnFailure" target="UseTarget" duration="1">
+          <Conditional huskinfection="lt 100.0" />
+          <ReduceAffliction identifier="huskinfection" amount="60" />
+        </StatusEffect>
+        <StatusEffect tags="medical" type="OnUse" target="UseTarget" duration="1">
           <Affliction identifier="calyxanideinjection" amount="5" />
         </StatusEffect>
         <!-- Remove the item when fully used -->
@@ -51,7 +59,7 @@
         <StatusEffect type="OnImpact" target="This" Condition="-100.0" disabledeltatime="true">
           <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
         </StatusEffect>
-        <StatusEffect tags="medical,calyxanide" type="OnImpact" target="Character">
+        <StatusEffect tags="medical,calyxanide" type="OnImpact" target="UseTarget">
           <Affliction identifier="calyxanideinjection" amount="5" />
         </StatusEffect>
       </Projectile>

@@ -2,7 +2,7 @@
 <Character speciesname="Humanshambler" displayname="" husk="True" humanoid="True" hasinfo="True" usehuskappendage="False" needsair="False" genders="true" canspeak="True" blooddecal="blackblood" group="husk" needswater="False" noise="100" visibility="100" bleedparticleair="blackblood" bleedparticlewater="blackwaterblood" eatingspeed="10" pathfinderpriority="1" hideinsonar="False" speciestranslationoverride="husk" sonardisruption="0" bleedparticlemultiplier="1" distantsonarrange="0" disabledistance="25000" caninteract="True" usebosshealthbar="False" caneat="False" usepathfinding="True" hideinthermalgoggles="False" soundinterval="10">
   <ragdolls folder="default" />
   <animations folder="default" />
-  <huskappendage affliction="huskheadhijacking1" path="%ModDir:Improved Husks%/Characters/Humanshambler/Shamblerheadlatched.xml" />
+  <huskappendage affliction="huskheadhijacking1" path="%ModDir%/Characters/Humanshambler/Shamblerheadlatched.xml" />
   <bloodemitter particle="blackblood" particleamount="5" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <bloodemitter particle="blackwaterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <gibemitter particle="blackgib" particleamount="10" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
@@ -53,18 +53,18 @@
     <target tag="room" state="Attack" priority="10" reactdistance="0" attackdistance="0" timer="0" ignorecontained="False" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" damagethreshold="0" attackpattern="Straight" sweepdistance="0" sweepstrength="10" sweepspeed="1" circlestartdistance="5000" circlerotationspeed="1" circlestrikedistancemultiplier="5" circlemaxrandomoffset="0" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" />
   </ai>
   <inventory arrowslot="9" slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any" accessiblewhenalive="False" accessiblebyowner="True" commonness="1" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/idle4.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/attack1.ogg" state="Attack" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/attack2.ogg" state="Attack" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/attack3.ogg" state="Attack" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/damage3.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/death1.ogg" state="Die" range="1500" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Humanshambler/death2.ogg" state="Die" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/idle3.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/idle4.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/attack1.ogg" state="Attack" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/attack2.ogg" state="Attack" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/attack3.ogg" state="Attack" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/damage3.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/death1.ogg" state="Die" range="1500" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Humanshambler/death2.ogg" state="Die" range="1500" volume="1" gender="None" />
   <StatusEffect type="Always" target="This" checkconditionalalways="true" comparison="and">
     <Conditional isdead="false" />
     <Affliction identifier="shamblermutation1" strength="50" />

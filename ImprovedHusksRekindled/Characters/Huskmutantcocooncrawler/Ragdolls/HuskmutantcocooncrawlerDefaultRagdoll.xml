@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Ragdoll type="Huskmutantcocooncrawler" texture="%ModDir:Improved Husks%/Characters/Huskmutantcocooncrawler/huskmutantcocooncrawler.png" canentersubmarine="True" canwalk="True" spritesheetorientation="0" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="75" impacttolerance="50" draggable="True" mainlimb="Torso" color="255,255,255,255">
+<Ragdoll type="Huskmutantcocooncrawler" texture="%ModDir%/Characters/Huskmutantcocooncrawler/huskmutantcocooncrawler.png" canentersubmarine="True" canwalk="True" spritesheetorientation="0" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="75" impacttolerance="50" draggable="True" mainlimb="Torso" color="255,255,255,255">
   <collider radius="35" width="75" name="Main Collider" height="25" />
   <limb id="0" name="Torso" type="Torso" height="50" width="100" notes="" scale="1" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" spriteorientation="NaN" steerforce="0" radius="0" density="10" ignorecollisions="False" angulardamping="7" attackpriority="1" pullpos="0,0" stepoffset="0,0" refjoint="-1" mouthpos="0,0" constanttorque="0" constantangle="0" attackforcemultiplier="1" minseverancedamage="1" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkholdtime="0" blinkrotationin="0" blinkrotationout="45" blinkforce="50" blinktransitionin="Linear" blinktransitionout="Linear" healthindex="0" friction="0.3" restitution="0.05" inheritlimbdepth="None" onlyblinkinwater="False">
     <deformablesprite texture="" sourcerect="0,5,162,110" origin="0.50699496,0.5728777" depth="0.101" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
     <lightsource color="255,255,0,30" range="70" castshadows="false" scale="1" offset="0,0" rotation="0" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0">
       <lighttexture texture="Content/Lights/pointlight_falloff.png" origin="0.5,0.5" size="1,1" />
-      <sprite texture="%ModDir:Improved Husks%/Characters/Huskmutantcocooncrawler/huskmutantcocoonglow.png" sourcerect="0,5,162,110" origin="0.50699496,0.5728777" depth="0" alpha="1" />
+      <sprite texture="%ModDir%/Characters/Huskmutantcocooncrawler/huskmutantcocoonglow.png" sourcerect="0,5,162,110" origin="0.50699496,0.5728777" depth="0" alpha="1" />
     </lightsource>
     <conditionalsprite exclusive="True">
       <conditional isDead="True" />
@@ -21,7 +21,7 @@
     <deformablesprite texture="" sourcerect="262,0,62,45" origin="0.5,0.33333334" depth="0.21" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
     <lightsource color="255,0,0,30" range="30" castshadows="false" scale="1" offset="0,0" rotation="0" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0">
       <lighttexture texture="Content/Lights/pointlight_falloff.png" origin="0.5,0.5" size="1,1" />
-      <sprite texture="%ModDir:Improved Husks%/Characters/Huskmutantcocooncrawler/huskmutantcocoonglow.png" sourcerect="262,0,62,45" origin="0.5,0.33333334" depth="0" alpha="1" />
+      <sprite texture="%ModDir%/Characters/Huskmutantcocooncrawler/huskmutantcocoonglow.png" sourcerect="262,0,62,45" origin="0.5,0.33333334" depth="0" alpha="1" />
     </lightsource>
     <damagemodifier armorsector="0,360" afflictiontypes="damage" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="True" afflictionidentifiers="" probabilitymultiplier="1" damageparticle="" />
     <damagemodifier armorsector="0,360" afflictiontypes="bleeding" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="True" afflictionidentifiers="" probabilitymultiplier="1" damageparticle="" />

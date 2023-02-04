@@ -12,14 +12,14 @@
     <Limb name="LeftArm" />
     <Limb name="RightArm" />
   </health>
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headidle1.ogg" state="Idle" range="3000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headidle2.ogg" state="Idle" range="3000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headidle3.ogg" state="Idle" range="3000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headidle4.ogg" state="Idle" range="3000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headidle5.ogg" state="Idle" range="3000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headattack1.ogg" state="Attack" range="3000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headattack2.ogg" state="Attack" range="3000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Endwormhuskhead/headattack3.ogg" state="Attack" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headidle1.ogg" state="Idle" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headidle2.ogg" state="Idle" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headidle3.ogg" state="Idle" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headidle4.ogg" state="Idle" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headidle5.ogg" state="Idle" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headattack1.ogg" state="Attack" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headattack2.ogg" state="Attack" range="3000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Endwormhuskhead/headattack3.ogg" state="Attack" range="3000" volume="1" gender="None" />
   <ai combatstrength="4000" sight="5" hearing="5" aggressionhurt="100" aggressiongreed="10" fleehealththreshold="0" attackwhenprovoked="False" avoidgunfire="False" avoidtime="3" minfleetime="20" aggressiveboarding="False" enforceaggressivebehaviorformissions="True" targetouterwalls="True" randomattack="False" avoidabyss="False" stayinabyss="False" aggressioncumulation="10" startaggression="0" maxaggression="100" canopendoors="False" keepdoorsclosed="False" patrolflooded="False" patroldry="False" walltargetingmethod="Target">
     <target tag="endworm" state="Attack" priority="1000" reactdistance="2000" attackdistance="1000" timer="0" ignorecontained="False" attackpattern="Straight" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" sweepdistance="0" sweepstrength="10" sweepspeed="1" circlestartdistance="5000" circlerotationspeed="1" circlestrikedistancemultiplier="5" circlemaxrandomoffset="0" />
     <target tag="wall" state="Attack" priority="200" reactdistance="4000" attackdistance="0" timer="0" ignorecontained="False" ignoreinside="False" ignoreoutside="False" ignoreifnotinsamesub="False" ignoreincapacitated="False" threshold="0" thresholdmin="-1" thresholdmax="-1" offset="0,0" attackpattern="Straight" sweepdistance="0" sweepstrength="10" sweepspeed="1" circlestartdistance="5000" circlerotationspeed="1" circlestrikedistancemultiplier="5" circlemaxrandomoffset="0" />

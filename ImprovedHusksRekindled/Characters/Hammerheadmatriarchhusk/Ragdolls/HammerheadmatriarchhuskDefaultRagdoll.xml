@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Ragdoll type="Hammerheadmatriarch" canentersubmarine="False" canwalk="False" spritesheetorientation="90" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" draggable="True" mainlimb="Torso" texture="%ModDir:Improved Husks%/Characters/Hammerheadmatriarchhusk/Hammerheadmatriarchhusk.png" color="255,255,255,255">
+<Ragdoll type="Hammerheadmatriarch" canentersubmarine="False" canwalk="False" spritesheetorientation="90" limbscale="1" jointscale="1" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" draggable="True" mainlimb="Torso" texture="%ModDir%/Characters/Hammerheadmatriarchhusk/Hammerheadmatriarchhusk.png" color="255,255,255,255">
   <collider radius="200" width="0" name="Main Collider" height="600" />
   <limb id="0" name="Torso" type="Torso" height="350" width="500" notes="" spriteorientation="NaN" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" attackpriority="1" steerforce="0" stepoffset="0,0" radius="0" mass="0" density="10" pullpos="0,0" refjoint="-1" ignorecollisions="False" healthindex="0" friction="0.3" restitution="0.05" angulardamping="7" mouthpos="0,0" constanttorque="0" constantangle="0" scale="1" attackforcemultiplier="1" minseverancedamage="1" inheritlimbdepth="None" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkholdtime="0" blinkrotationin="0" blinkrotationout="45" blinkforce="50" onlyblinkinwater="False" blinktransitionin="Linear" blinktransitionout="Linear">
     <deformablesprite texture="" sourcerect="1163,1,500,558" origin="0.5112625,0.5286262" depth="0.2" subdivisions="5,5" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False">
@@ -38,7 +38,7 @@
         <SpawnItem identifier="hammerheadpod" spawnposition="This" count="2" aimspread="35" rotationtype="Limb" rotation="0" />
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
-        <sound file="%ModDir:Improved Husks%/Characters/Endwormhusk/spit.ogg" range="5000" volume="1" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Endwormhusk/spit.ogg" range="5000" volume="1" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <StatusEffect type="OnDamaged" target="This">

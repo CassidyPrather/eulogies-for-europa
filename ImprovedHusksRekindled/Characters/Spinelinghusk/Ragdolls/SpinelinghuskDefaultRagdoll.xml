@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Ragdoll type="Spineling" canentersubmarine="True" canwalk="False" spritesheetorientation="90" limbscale="0.5" jointscale="0.5" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" draggable="True" mainlimb="Torso" texture="%ModDir:Improved Husks%/Characters/Spinelinghusk/Spinelinghusk.png" color="255,255,255,255">
+<Ragdoll type="Spineling" canentersubmarine="True" canwalk="False" spritesheetorientation="90" limbscale="0.5" jointscale="0.5" texturescale="1" colliderheightfromfloor="45" impacttolerance="50" draggable="True" mainlimb="Torso" texture="%ModDir%/Characters/Spinelinghusk/Spinelinghusk.png" color="255,255,255,255">
   <collider radius="45" width="0" name="Main Collider" height="100" />
   <limb id="0" name="Head" type="Head" height="0" width="0" notes="" spriteorientation="NaN" flip="True" mirrorvertically="False" mirrorhorizontally="False" hide="False" attackpriority="2" steerforce="10" stepoffset="0,0" radius="45" mass="0" density="10" pullpos="0,0" refjoint="-1" ignorecollisions="False" healthindex="0" friction="0.3" restitution="0.05" angulardamping="7" mouthpos="1.2,-0.5" constanttorque="0" constantangle="0" scale="1" attackforcemultiplier="1" minseverancedamage="10" severedfadeouttime="10" applytailangle="False" sinefrequencymultiplier="1" sineamplitudemultiplier="1" blinkfrequency="0" blinkdurationin="0.2" blinkdurationout="0.5" blinkholdtime="0" blinkrotationin="0" blinkrotationout="45" blinkforce="50" blinktransitionin="Linear" blinktransitionout="Linear" inheritlimbdepth="None" onlyblinkinwater="False">
     <sprite sourcerect="138,0,91,121" origin="0.36367497,0.49676934" depth="0.01" texture="" color="255,255,255,255" deadcolor="255,255,255,255" deadcolortime="0" ignoretint="False" />
@@ -35,8 +35,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -52,8 +52,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -69,8 +69,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -86,8 +86,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -103,7 +103,7 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -119,8 +119,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -136,8 +136,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -153,8 +153,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="15" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -170,8 +170,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="30" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -187,8 +187,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="30" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -204,8 +204,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="30" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">
@@ -221,8 +221,8 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
         <HideLimb duration="30" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
-        <sound file="%ModDir:Improved Husks%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile1.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Spinelinghusk/attackProjectile2.ogg" range="2000" volume="0.1" selectionmode="random" dontmuffle="true" />
       </StatusEffect>
     </attack>
     <lightsource color="155,255,0,0" range="0" castshadows="false" scale="1" offset="-4,0" rotation="-90" flicker="0" flickerspeed="1" pulsefrequency="1" pulseamount="0.5" blinkfrequency="0">

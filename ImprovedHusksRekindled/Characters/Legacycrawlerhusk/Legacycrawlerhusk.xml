@@ -6,14 +6,14 @@
   <bloodemitter particle="blackwaterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <gibemitter particle="blackgib" particleamount="20" velocitymin="200" velocitymax="700" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <health vitality="110" doesbleed="True" crushdepth="-Infinity" usehealthwindow="False" bleedingreduction="0" burnreduction="0" constanthealthregeneration="0" healthregenerationwheneating="0" stunimmunity="False" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/attack1.ogg" state="Attack" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/attack2.ogg" state="Attack" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/death1.ogg" state="Die" range="1000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Legacycrawlerhusk/death2.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/idle1.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/idle2.ogg" state="Idle" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/attack1.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/attack2.ogg" state="Attack" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/damage1.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/damage2.ogg" state="Damage" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/death1.ogg" state="Die" range="1000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Legacycrawlerhusk/death2.ogg" state="Die" range="1000" volume="1" gender="None" />
   <Inventory slots="Any, Any" accessiblewhenalive="False" commonness="8">
     <!-- empty inventory -->
   </Inventory>

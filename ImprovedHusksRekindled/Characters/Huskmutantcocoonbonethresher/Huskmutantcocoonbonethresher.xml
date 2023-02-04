@@ -7,19 +7,19 @@
   <bloodemitter particle="blackwaterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <gibemitter particle="blackgib" particleamount="20" velocitymin="200" velocitymax="700" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <health vitality="350" doesbleed="True" crushdepth="-Infinity" usehealthwindow="False" bleedingreduction="0" burnreduction="0" constanthealthregeneration="1" healthregenerationwheneating="15" stunimmunity="False" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/attack1.ogg" state="Attack" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/attack2.ogg" state="Attack" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/attack3.ogg" state="Attack" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/attack4.ogg" state="Attack" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/idle1.ogg" state="Idle" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/idle2.ogg" state="Idle" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/idle3.ogg" state="Idle" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/idle4.ogg" state="Idle" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/death1.ogg" state="Die" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/death2.ogg" state="Die" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/damage1.ogg" state="Damage" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/damage2.ogg" state="Damage" range="2000" volume="1" gender="None" />
-  <sound file="%ModDir:Improved Husks%/Characters/Huskmutantcocoonbonethresher/damage3.ogg" state="Damage" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/attack1.ogg" state="Attack" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/attack2.ogg" state="Attack" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/attack3.ogg" state="Attack" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/attack4.ogg" state="Attack" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/idle1.ogg" state="Idle" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/idle2.ogg" state="Idle" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/idle3.ogg" state="Idle" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/idle4.ogg" state="Idle" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/death1.ogg" state="Die" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/death2.ogg" state="Die" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/damage1.ogg" state="Damage" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/damage2.ogg" state="Damage" range="2000" volume="1" gender="None" />
+  <sound file="%ModDir%/Characters/Huskmutantcocoonbonethresher/damage3.ogg" state="Damage" range="2000" volume="1" gender="None" />
   <inventory slots="Any, Any, Any, Any, Any" accessiblewhenalive="False" commonness="4">
     <Item identifier="huskeggs" />
     <Item identifier="huskeggs" />

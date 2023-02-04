@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Localizations For Europa" modversion="1.0.0" corepackage="False" gameversion="0.20.16.1">
-  <Item file="%ModDir%/Localization/English.xml" />
-</contentpackage>

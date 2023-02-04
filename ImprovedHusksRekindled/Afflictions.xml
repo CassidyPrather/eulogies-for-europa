@@ -196,7 +196,7 @@
           <Conditional speciesname="eq psilotoad" />
           <Affliction identifier="stun" amount="2" />
           <ParticleEmitter particle="huskgoo" particlespersecond="5" scalemin="1.0" scalemax="1.2" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" copyentityangle="false" />
-          <Sound file="%ModDir:Improved Husks%/Characters/Pets/infect.ogg" range="1000" />
+          <Sound file="%ModDir%/Characters/Pets/infect.ogg" range="1000" />
           <!-- Play a special sound when a pet is infected cause want people to know about it.-->
         </StatusEffect>
       </Periodiceffect>
@@ -230,7 +230,7 @@
         <Affliction identifier="organdamage" amount="2" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="256,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="256,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- HUSK MUTATION AFFLICTION -->
@@ -400,7 +400,7 @@
         <Affliction identifier="divinghuskmutation" amount="100" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="0,0,128,128" color="60,140,195,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="0,0,128,128" color="60,140,195,255" origin="0,0" />
   </Affliction>
   <Affliction name="Diving Suit Husk Mutation" identifier="divinghuskmutation" description="The rusted diving acts as a cocoon, as whatever is inside it changes shape." type="divinghuskmutation" limbspecific="false" indicatorlimb="Torso" activationthreshold="0" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100">
     <Effect minstrength="0" maxstrength="100" strengthchange="0" />
@@ -408,9 +408,9 @@
     <PeriodicEffect mininterval="5" maxinterval="15">
       <StatusEffect target="Character" comparison="and">
         <Conditional isdead="false" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskold/creak.ogg" range="1000" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskold/creak2.ogg" range="1000" volume="1" selectionmode="Random" />
-        <sound file="%ModDir:Improved Husks%/Characters/Huskold/creak3.ogg" range="1000" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskold/creak.ogg" range="1000" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskold/creak2.ogg" range="1000" volume="1" selectionmode="Random" />
+        <sound file="%ModDir%/Characters/Huskold/creak3.ogg" range="1000" volume="1" selectionmode="Random" />
       </StatusEffect>
     </PeriodicEffect>
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,640,128,128" color="60,107,195,255" origin="0,0" />
@@ -450,17 +450,17 @@
         <Affliction identifier="huskmutation" amount="5" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="256,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="256,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <Affliction name="Derailed" identifier="watcherderailed" description="" type="watcherderailed" causeofdeathdescription="" selfcauseofdeathdescription="" limbspecific="false" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100">
     <Effect minstrength="0" maxstrength="100" minscreendistort="0.7" maxscreendistort="0.9" minradialdistort="0.7" maxradialdistort="0.9" minscreenblur="0.8" maxscreenblur="1.2" minchromaticaberration="0.5" maxchromaticaberration="1.0" strengthchange="-5.0" MinAfflictionOverlayAlphaMultiplier="0" MaxAfflictionOverlayAlphaMultiplier="0.7" mingrainstrength="0" maxgrainstrength="1">
       <StatusEffect target="Character" SpeedMultiplier="0.6" setvalue="true" />
       <StatusEffect target="Character">
         <Conditional IsLocalPlayer="True" />
-        <Sound file="%ModDir:Improved Husks%/Characters/Watcherhusk/derailed.ogg" loop="true" volume="1" selectionmode="Random" />
+        <Sound file="%ModDir%/Characters/Watcherhusk/derailed.ogg" loop="true" volume="1" selectionmode="Random" />
       </StatusEffect>
     </Effect>
-    <AfflictionOverlay texture="%ModDir:Improved Husks%/Characters/Watcherhusk/watcheroverlay.png" />
+    <AfflictionOverlay texture="%ModDir%/Characters/Watcherhusk/watcheroverlay.png" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- SYMBIOTIC HUSK SECONDARY AFFLICTION -->
@@ -484,7 +484,7 @@
         <ReduceAffliction identifier="symbiotichusk" strength="10" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="256,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="256,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- SYMBIOTIC HUSK SECONDARY AFFLICTION -->
@@ -508,7 +508,7 @@
         <ReduceAffliction identifier="huskinfection" amount="3" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="384,0,128,128" color="60,0,195,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="384,0,128,128" color="60,0,195,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- SYMBIOTIC HUSK INFECTION AFFLICTION -->
@@ -530,7 +530,7 @@
         <SpawnItem identifier="symbiotichuskparticle" spawnposition="This" count="1" spread="0" />
       </StatusEffect>
     </Effect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="128,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="128,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- BOOSTER HUSK INFECTION AFFLICTION -->
@@ -566,7 +566,7 @@
         <Affliction identifier="huskinfection" strength="5" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="0,128,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="0,128,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- GROWTH AFFLICTION -->
@@ -648,7 +648,7 @@
         <ReduceAffliction identifier="creaturegrowth" strength="1000" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="0,128,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="0,128,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- HUSK ROTTING AFFLICTION -->
@@ -936,10 +936,10 @@
       <StatusEffect target="Character" checkconditionalalways="true" targetlimb="Head" comparison="and">
         <Conditional speciesname="human" />
         <Conditional isdead="false" />
-        <Sound file="%ModDir:Improved Husks%/Characters/Huskmutanthumanhead/headloop.ogg" range="1000" volume="0.8" />
+        <Sound file="%ModDir%/Characters/Huskmutanthumanhead/headloop.ogg" range="1000" volume="0.8" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="512,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="512,0,128,128" color="255,255,255,255" origin="0,0" />
   </Afflictionhusk>
   <Affliction name="Armed" identifier="shamblerarmed" description="This shambler has a weapon and is not afraid to use it!" type="shamblerarmed" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100">
     <Effect minstrength="0" maxstrength="100" strengthchange="0">
@@ -977,7 +977,7 @@
         <Affliction identifier="huskinfection" amount="1" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- ENRAGED AFFLICTION, currently unused -->
@@ -989,7 +989,7 @@
       </StatusEffect>
       <StatusEffect target="Character" SpeedMultiplier="1.2" setvalue="true" />
     </Effect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- WATCHER DAMAGE AFFLICTION  -->
@@ -1018,7 +1018,7 @@
         <ReduceAffliction identifier="watcherdamage" amount="45" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- RANDOM AFFLICTION  -->
@@ -1046,7 +1046,7 @@
         <Affliction identifier="huskrandomchance" amount="30" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- HUSK VARIANT SPAWN RANDOM AFFLICTION  -->
@@ -1123,12 +1123,12 @@
         <ReduceAffliction identifier="huskfakedeath" amount="2" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- Paralysis effect in order to keep the husk completely still and make it not make noise. -->
   <Affliction name="Fake death" identifier="huskfakedeathparalysis" description="It's not really dead!" type="paralysis" limbspecific="false" indicatorlimb="Torso" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
     <Effect minstrength="0" maxstrength="100" strengthchange="0" />
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- Affliction to remember that this monster was wounded. Used by humanhuskold and huskpucsold/huskmutantarmoredpucs -->
   <Affliction name="Damaged" identifier="huskdamaged" description="The monster is DAMAGED. Becomes slower and has less health." type="huskdamaged" limbspecific="false" indicatorlimb="Torso" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
@@ -1142,7 +1142,7 @@
         <ReduceAffliction identifier="huskdamaged" amount="1000" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- MUTANT HUMAN DISMEMBER AFFLICTION  -->
@@ -1150,7 +1150,7 @@
   <Affliction name="Husk mutant human damage" identifier="huskmutanthumandamage" description="It's about to blow!" type="huskmutanthumandamage" limbspecific="false" indicatorlimb="Torso" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
     <Effect minstrength="0" maxstrength="100" strengthchange="-2" />
     <!-- The affliction is increased when a huskmutanthuman is damaged in certain body parts.-->
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- HUNTER HEAD STORAGE AFFLICTIONS  -->
@@ -1173,7 +1173,7 @@
         <SpawnItem identifier="huskhunterstorageparticle" spawnposition="This" count="3" spread="25" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <Affliction name="Extra Storage" identifier="huskhunterextrastorage" description="The monster is cloning its ammo!" type="huskhunterextrastorage" limbspecific="false" indicatorlimb="Torso" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
     <Effect minstrength="0" maxstrength="100" strengthchange="0" />
@@ -1187,13 +1187,13 @@
         <ReduceAffliction identifier="huskhunterextrastorage" amount="1000" />
       </StatusEffect>
     </PeriodicEffect>
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!-- _________________________________________________________________ -->
   <!-- GENERIC AFFLICTION  -->
   <!-- _________________________________________________________________ -->
   <Affliction name="Generic affliction" identifier="genericaffliction" description="I don't want to make a separate affliction for every time I just need to check if something did or didn't happen." type="genericaffliction" limbspecific="false" indicatorlimb="Torso" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="100" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
     <Effect minstrength="0" maxstrength="100" strengthchange="0" />
-    <icon texture="%ModDir:Improved Husks%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
+    <icon texture="%ModDir%/Afflictionicons.png" sourcerect="640,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
 </Afflictions>
