@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Item name="" identifier="pirateclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="225" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.3" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" />
+    </Price>
+    <Sprite name="pirate" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="767,233,122,58" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Pirate Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,180" origin="0.575,0.56" />
+      <sprite name="Pirate Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="Waist" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 1 Boobs" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,gunshotwound" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="" nameidentifier="pirateclothes" identifier="pirateclothesnovice" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.3" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" />
+    </Price>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="2,10" sheetelementsize="64,64" />
+    <Sprite name="pirate" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="898,222,120,66" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Pirate Uniform 2 Torso" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,180" origin="0.575,0.56" />
+      <sprite name="Pirate Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="Waist" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Boobs" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_2.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,gunshotwound" damagemultiplier="0.95" />
+    </Wearable>
+  </Item>
+  <Item name="" nameidentifier="pirateclothes" identifier="pirateclotheshard" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="300" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.3" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" />
+    </Price>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="0,10" sheetelementsize="64,64" />
+    <Sprite name="pirate" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="904,294,118,59" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Pirate Uniform 3 Torso" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,180" origin="0.575,0.56" />
+      <sprite name="Pirate Uniform 3 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Hand" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Waist" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="Waist" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Thigh" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Thigh" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Leg" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Leg" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Shoe" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Shoe" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Boobs" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_3.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.95" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,lacerations" damagemultiplier="0.85" />
+    </Wearable>
+  </Item>
+  <Item name="" fallbacknameidentifier="ballistichelmet1" identifier="piratehelmet" aliases="ballistichelmet" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
+    <Price baseprice="225" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.3" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Sprite name="Pirate Helmet" texture="%ModDir%/Items/Jobgear/headgears_male.png" sourcerect="336,192,91,96" depth="0.6" origin="0.5,0.5" />
+    <Body radius="30" density="50" />
+    <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <SkillModifier skillidentifier="weapons" skillvalue="5" />
+      <sprite name="Pirate Helmet 1 Wearable" texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" sourcerect="336,192,91,96" origin="0.5,0.5" />
+    </Wearable>
+  </Item>
+  <Item name="" identifier="piratecaptainhat" category="Equipment" tags="smallitem,clothing" impactsoundtag="impact_metal_heavy" scale="0.4" cargocontaineridentifier="metalcrate">
+    <Price baseprice="175" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.3" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Sprite texture="Content/Items/Jobgear/headgears.png" sourcerect="202,408,88,59" depth="0.6" origin="0.5,0.5" />
+    <Body radius="30" density="50" />
+    <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <sprite texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.8" sourcerect="197,406,102,107" origin="0.55,0.6" />
+      <SkillModifier skillidentifier="helm" skillvalue="12" />
+    </Wearable>
+  </Item>
+  <Item name="" identifier="piratebandana" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="1" sold="false" canbespecial="false" />
+    <Sprite texture="Content/Items/Jobgear/headgears.png" depth="0.6" sourcerect="332,451,69,54" origin="0.5,0.5" scale="0.5" />
+    <Body width="20" radius="15" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.8" sourcerect="313,407,100,95" origin="0.55,0.5" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.8" />
+      <SkillModifier skillidentifier="mechanical" skillvalue="5" />
+      <SkillModifier skillidentifier="electrical" skillvalue="5" />
+    </Wearable>
+  </Item>
+  <Item name="" fallbacknameidentifier="bodyarmor" identifier="piratebodyarmor" category="Equipment" tags="smallitem,clothing" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Price baseprice="480" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.3" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" />
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Mechanic/safetyharness_male.png" sourcerect="432,178,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Jobgear/Mechanic/safetyharness_male.png" sourcerect="16,256,96,128" depth="0.6" origin="0.5,0.4" />
+    <Body radius="45" height="35" density="40" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <SkillModifier skillidentifier="weapons" skillvalue="5" />
+      <sprite name="Pirate Armor Wearable" texture="%ModDir%/Items/Jobgear/Mechanic/safetyharness_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" sourcerect="16,256,96,128" inherittexturescale="true" origin="0.5,0.6" />
+      <sprite name="HideBoobs" texture="%ModDir%/Items/Jobgear/Commoner/pirate_[GENDER]_1.png" limb="Tail" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" sourcerect="0,0,1,1" />
+    </Wearable>
+  </Item>
+</Override>

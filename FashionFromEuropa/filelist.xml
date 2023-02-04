@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Fashion For Europa" modversion="1.0.6" corepackage="False" steamworkshopid="2914376642" gameversion="0.20.16.1">
+  <Character file="%ModDir%/Characters/Human/Human.xml" />
+  <Character file="%ModDir%/Characters/Humanhusk/Humanhusk.xml" />
+  <Character file="%ModDir%/Characters/Humanshambler/Humanshambler.xml" />
+  <UIStyle file="%ModDir%/UI/override_style.xml" />
+  <Jobs file="%ModDir%/Items/Jobs.xml" />
+  <Structure file="%ModDir%/Items/override_OutpostStructurePrefabs.xml" />
+  <Item file="%ModDir%/Items/weeaboo.xml" />
+  <Item file="%ModDir%/Items/Diving/override_divinggear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Assistant/override_assistant_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Captain/override_captain_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Clown/override_clown.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Commoner/override_commoner_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Engineer/override_engineer_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Mechanic/override_mechanic_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Medic/override_medic_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Security/override_securityofficer_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Watchman/override_watchman_gear.xml" />
+  <Item file="%ModDir%/Items/Jobgear/override_misc.xml" />
+  <Item file="%ModDir%/Items/Jobgear/override_pirateitems.xml" />
+  <Item file="%ModDir%/Items/MiscItems.xml" />
+  <Text file="%ModDir%/Localization/English.xml" />
+  <Text file="%ModDir%/Localization/Russian.xml" />
+  <Text file="%ModDir%/Localization/Japanese.xml" />
+  <Text file="%ModDir%/Localization/BrazilianPortuguese.xml" />
+</contentpackage>

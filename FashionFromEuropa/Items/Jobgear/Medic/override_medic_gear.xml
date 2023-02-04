@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Item name="" identifier="healthscanner" scale="0.5" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" amount="1" spawnprobability="0.5" notcampaign="true" />
+    <Price baseprice="150" minavailable="1">
+      <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" minavailable="8" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantmedical" minavailable="8" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="copper" />
+      <Item identifier="plastic" amount="2" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredSkill identifier="medical" level="50" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,256,64,64" origin="0.5,0.5" />
+    <Sprite name="Health Scanner" texture="Content/Items/Jobgear/headgears.png" sourcerect="115,349,75,26" depth="0.6" origin="0.5,0.5" />
+    <Body width="70" height="24" density="30" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Health Scanner Wearable" texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" sourcerect="115,349,75,26" origin="0.5,0.3" />
+    </Wearable>
+    <StatusHUD drawhudwhenequipped="true" />
+  </Item>
+  <Item name="" identifier="autoinjectorheadset" scale="0.5" category="Equipment,Medical" tags="smallitem,mobileradio" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" />
+    <Price baseprice="140" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <InventoryIcon texture="Content/Items/JobGear/TalentGear.png" sourcerect="113,264,58,45" origin="0.5,0.5" />
+    <Sprite name="Headset" texture="Content/Items/JobGear/TalentGear.png" depth="0.6" sourcerect="253,301,76,64" origin="0.35,0.5" />
+    <Body radius="20" height="20" density="30" />
+    <Deconstruct time="10">
+      <Item identifier="plastic" amount="2" />
+      <Item identifier="copper" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10" requiresrecipe="true">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="fpgacircuit" />
+    </Fabricate>
+    <WifiComponent range="35000.0" LinkToChat="true" MinChatMessageInterval="0.0" />
+    <ItemContainer capacity="1" maxstacksize="1" autoinject="true">
+      <Containable items="chem,medical" />
+    </ItemContainer>
+    <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Headset Wearable" texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" sourcerect="640,340,70,52" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hideotherwearables="false" origin="0.45,0.4" />
+    </Wearable>
+  </Item>
+  <Item name="" identifier="doctorsuniform1" aliases="doctorsuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
+    <Price baseprice="150" minavailable="1">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon name="Medic Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+    <Sprite name="Medic Uniform 1" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="504,84,123,60" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Medic Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.50" />
+      <sprite name="Medic Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,55,105,150" origin="0.575,0.66" />
+      <sprite name="Medic Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,210,105,55" origin="0.56,0.37" />
+      <sprite name="Medic Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Boobs" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,bitewounds" damagemultiplier="0.95" />
+    </Wearable>
+    <ItemContainer capacity="3">
+      <Containable items="chem,medical" excludeditems="toolbox,toolbelt" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="doctorsuniform2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
+    <Price baseprice="150" minavailable="1">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon name="Medic Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+    <Sprite name="Medic Uniform 2" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="640,70,124,74" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Medic Uniform 2 Torso" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,256" origin="0.575,0.4" />
+      <sprite name="Medic Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,180,105,76" origin="0.46,0.6" />
+      <sprite name="Medic Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Boobs" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,bitewounds" damagemultiplier="0.95" />
+    </Wearable>
+    <ItemContainer capacity="3">
+      <Containable items="chem,medical" excludeditems="toolbox,toolbelt" />
+    </ItemContainer>
+  </Item>
+</Override>

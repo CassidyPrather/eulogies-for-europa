@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mods name="Eulogies for Europa 4.0.3">
+  <Vanilla />
+  <Workshop name="Lua For Barotrauma" id="2559634234" />
+  <Workshop name="Performance Fix" id="2701251094" />
+  <Workshop name="BaroTraumatic" id="2518816103" />
+  <Workshop name="Slow Diving Gear (FFE)" id="2914378740" />
+  <Workshop name="Fashion For Europa" id="2914376642" />
+  <Workshop name="Barotraumatic Creature Pack" id="2831987252" />
+  <Workshop name="Pirates Ahoy!" id="2885238752" />
+  <Workshop name="Husk Mod Missions" id="2902332109" />
+  <Workshop name="Improved Husks" id="2085783214" />
+  <Workshop name="More Artifacts Lite" id="2820157920" />
+  <Workshop name="Stations from beyond" id="2585543390" />
+  <Workshop name="ADV Beacon Stations" id="2544952900" />
+  <Workshop name="Beacons Extended" id="2389600483" />
+  <Workshop name="Shipwrecks Extended" id="2095211492" />
+  <Workshop name="New Wrecks For Barotrauma (With sellable wrecks)" id="2184257427" />
+  <Workshop name="Supplemental ID Cards" id="2648947664" />
+  <Workshop name="EK | Dockyard" id="2390137099" />
+  <Workshop name="MannaBuildables" id="2809102161" />
+  <Workshop name="IMC BOTANUS" id="2615724454" />
+  <Workshop name="[AP] Belfast" id="2056398390" />
+  <Workshop name="[AP] Comet" id="2056398575" />
+  <Workshop name="[AP] Kleber" id="2056399071" />
+  <Workshop name="[AP] Salut11" id="2056399293" />
+  <Workshop name="[AP] Sever" id="2056399561" />
+  <Workshop name="[AP] Tabrat М2" id="2275460055" />
+  <Workshop name="[AP] Tarbatagai" id="2286292591" />
+  <Workshop name="[AP] Brusilov" id="2383080722" />
+  <Workshop name="[AP] Ochakov" id="2406849453" />
+  <Workshop name="[AP] Tanit" id="2416904187" />
+  <Workshop name="[AP] Centurio" id="2440211271" />
+  <Workshop name="[AP] Warden" id="2519404906" />
+  <Workshop name="[AP] Kleber B4" id="2520063236" />
+  <Workshop name="[AP] Meteor" id="2538939268" />
+  <Workshop name="[AP] Bomut" id="2571152911" />
+  <Workshop name="[AP] Curie" id="2621998770" />
+  <Workshop name="[AP] Sakala" id="2635082749" />
+  <Workshop name="[AP] Bohr" id="2654082410" />
+  <Workshop name="[AP] Skua" id="2707324973" />
+  <Workshop name="[AP] Taiidan" id="2792934262" />
+  <Workshop name="[AP] Cormoran" id="2899117402" />
+  <Workshop name="[AP] Catran" id="2470714738" />
+  <Workshop name="Rust" id="2904838483" />
+  <Workshop name="BetterFabricatorUI" id="2811300302" />
+</mods>
