@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="evolutionofeuropaconversations" Language="English">
+
+<Conversation line="Welcome welcome! We just cleared out our brainmoss growth, no antidote needed." speaker="0" flags="EnterOutpost, OutpostNPC" />
+
+<Conversation line="Did you hear about the paralysis sharks down south?" speaker="0" flags="OutpostNPC">
+  <Conversation line="Grim stuff, that. I thought they weren't wandering to these parts... Times are changing." speaker="1" flags="OutpostNPC">
+    <Conversation line="Yep. I saw them myself, didn't really believe it. Sign of the times, ya' know?" speaker="0">
+      <Conversation line="That's the coalition for you." speaker="1">
+        <Conversation line="At least it's not a brainmoss outbreak. Last time we had one of those, paralysis seemed like a sweet way to go." speaker="1" />
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="They're not sharks, they're fish- get it right." speaker="1" flags="OutpostNPC" />
+</Conversation>
+
+</Conversations>

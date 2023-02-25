@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Evolution of Europa" modversion="0.0.1" corepackage="False" steamworkshopid="2938995112" gameversion="0.21.6.0">
+  <NPCConversations file="%ModDir%/Flavor/NpcConversations_English.xml" />
+  <Text file="%ModDir%/Flavor/loadingScreenTips.xml" />
+  <RandomEvents file="%ModDir%/Events/CampaignEvents.xml" />
+  <RandomEvents file="%ModDir%/Events/RandomEvents.xml" />
+  <Missions file="%ModDir%/Missions.xml" />
+</contentpackage>
