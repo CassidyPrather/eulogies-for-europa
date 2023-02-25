@@ -14,6 +14,7 @@
   <Workshop name="Complete Global Darkness" id="2874526487" />
   <Workshop name="DynamicEuropa - Default Level Size Patch + Frith's Biomes" id="2927719894" />
   <Workshop name="[UPDATED!] Frith's Biomes" id="2020332046" />
+  <Workshop name="SFB with DE" id="2907491279" />
   <Workshop name="DynamicEuropa" id="2532991202" />
   <Workshop name="Barotraumatic Creature Pack" id="2831987252" />
   <Workshop name="Ruins Enhanced" id="2825448171" />
@@ -24,8 +25,7 @@
   <Workshop name="Neurotrauma Cybernetics" id="2788543375" />
   <Workshop name="Neurotrauma Tutorial map: Mercy Hospital" id="2860450711" />
   <!--Structures-->
-  <Workshop name="SFB with DE" id="2907491279" />
-  <!-- Formerly: <Workshop name="Stations from beyond" id="2585543390" />-->
+  <Workshop name="Stations from beyond" id="2585543390" />
   <Workshop name="ADV Beacon Stations" id="2544952900" />
   <Workshop name="Beacons Extended" id="2389600483" />
   <Workshop name="Shipwrecks Extended" id="2095211492" />
