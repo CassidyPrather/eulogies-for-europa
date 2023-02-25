@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Fashion For Europa" modversion="1.0.6" corepackage="False" steamworkshopid="2914376642" gameversion="0.20.16.1">
+<contentpackage name="Fashion For Europa" modversion="1.0.7" corepackage="False" steamworkshopid="2914376642" gameversion="0.21.6.0">
   <Character file="%ModDir%/Characters/Human/Human.xml" />
   <Character file="%ModDir%/Characters/Humanhusk/Humanhusk.xml" />
   <Character file="%ModDir%/Characters/Humanshambler/Humanshambler.xml" />
