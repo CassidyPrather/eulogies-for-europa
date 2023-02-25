@@ -6,11 +6,11 @@
   <Workshop name="Lua For Barotrauma" id="2559634234" />
   <Workshop name="Cs For Barotrauma" id="2795927223" />
   <Workshop name="Performance Fix" id="2701251094" />
-  <!--Cassidy's Creature List goes here-->
   <!--Core Item Graphical Overrides-->
   <Workshop name="Slow Diving Gear (FFE)" id="2914378740" /> <!--Override order-->
   <Workshop name="Fashion For Europa" id="2914376642" />
   <!--World & Monsters-->
+  <Workshop name="Evolution of Europa" id="2938995112" />
   <Workshop name="DynamicEuropa - Default Level Size Patch + Frith's Biomes" id="2927719894" />
   <Workshop name="[UPDATED!] Frith's Biomes" id="2020332046" />
   <Workshop name="SFB with DE" id="2907491279" />
