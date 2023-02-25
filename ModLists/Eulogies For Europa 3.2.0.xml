@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mods name="Eulogies For Europa 3.2.0">
+  <Vanilla />
+  <Workshop name="Lua For Barotrauma" id="2559634234" />
+  <Workshop name="EW++ Slow Diving Gear" id="2909781341" />
+  <Workshop name="EuropaWaifu++" id="2648774153" />
+  <Workshop name="Improved Husks" id="2085783214" />
+  <Workshop name="EK | Utility" id="1946765892" />
+  <Workshop name="EK | Armory" id="1769403760" />
+  <Workshop name="EK | Gunnery" id="2390126010" />
+  <Workshop name="EK | Dockyard" id="2390137099" />
+  <Workshop name="ExtendedMonsters [Spawner Edition]" id="2197353935" />
+  <Workshop name="Beacons Extended" id="2389600483" />
+  <Workshop name="Shipwrecks Extended" id="2095211492" />
+  <Workshop name="Stations from beyond" id="2585543390" />
+  <Workshop name="ADV Beacon Stations" id="2544952900" />
+  <Workshop name="More Artifacts (AOCS)" id="2776026770" />
+  <Workshop name="New Wrecks For Barotrauma (With sellable wrecks)" id="2184257427" />
+  <Workshop name="Husk Mod Missions" id="2902332109" />
+  <Workshop name="BetterFabricatorUI" id="2811300302" />
+  <Workshop name="[AP] Belfast" id="2056398390" />
+  <Workshop name="[AP] Comet" id="2056398575" />
+  <Workshop name="[AP] Kleber" id="2056399071" />
+  <Workshop name="[AP] Salut11" id="2056399293" />
+  <Workshop name="[AP] Sever" id="2056399561" />
+  <Workshop name="[AP] Tabrat М2" id="2275460055" />
+  <Workshop name="[AP] Tarbatagai" id="2286292591" />
+  <Workshop name="[AP] Brusilov" id="2383080722" />
+  <Workshop name="[AP] Ochakov" id="2406849453" />
+  <Workshop name="[AP] Tanit" id="2416904187" />
+  <Workshop name="[AP] Centurio" id="2440211271" />
+  <Workshop name="[AP] Catran" id="2470714738" />
+  <Workshop name="[AP] Warden" id="2519404906" />
+  <Workshop name="[AP] Kleber B4" id="2520063236" />
+  <Workshop name="[AP] Meteor" id="2538939268" />
+  <Workshop name="[AP] Bomut" id="2571152911" />
+  <Workshop name="[AP] Curie" id="2621998770" />
+  <Workshop name="[AP] Sakala" id="2635082749" />
+  <Workshop name="[AP] Bohr" id="2654082410" />
+  <Workshop name="[AP] Skua" id="2707324973" />
+  <Workshop name="[AP] Taiidan" id="2792934262" />
+  <Workshop name="[AP] Cormoran" id="2899117402" />
+  <Workshop name="IMC ENFORCER" id="2356855102" />
+  <Workshop name="IMC CUDA" id="2260250536" />
+  <Workshop name="IMC PREDATOR with SHUTTLE" id="2262695295" />
+  <Workshop name="IMC SIMPLICITY" id="2264383386" />
+  <Workshop name="IMC PREDATOR no SHUTTLE" id="2264425978" />
+  <Workshop name="IMC BUZZARD FIGHTER" id="2266320093" />
+  <Workshop name="IMC BRIMSTONE CARRIER" id="2268977977" />
+  <Workshop name="IMC MARAUDER" id="2270742206" />
+  <Workshop name="IMC PREDATOR with BUZZARD Shuttle" id="2270869159" />
+  <Workshop name="IMC ECLIPSE" id="2327199468" />
+  <Workshop name="IMC PARITY" id="2334932972" />
+  <Workshop name="IMC TRADE RUNNER" id="2350308558" />
+  <Workshop name="IMC INDUCTOR X1" id="2382212091" />
+  <Workshop name="IMC GLADIUS" id="2455543878" />
+  <Workshop name="IMC REDEEMER" id="2466155584" />
+  <Workshop name="IMC DCS SHUTTLE (SCOUT)" id="2468367786" />
+  <Workshop name="IMC REDEEMER with DCS" id="2469184427" />
+  <Workshop name="IMC SCIMITAR" id="2477675247" />
+  <Workshop name="IMC AA14 SALVATION" id="2493711653" />
+  <Workshop name="IMC AA14 RESCUE SCOUT" id="2497550297" />
+  <Workshop name="IMC JAS" id="2519897249" />
+  <Workshop name="IMC JAS Shuttle Scout" id="2587682031" />
+  <Workshop name="IMC COLLECTOR" id="2615541969" />
+  <Workshop name="IMC BOTANUS" id="2615724454" />
+  <Workshop name="IMC BUZZARD SHUTTLE MKII" id="2617388728" />
+  <Workshop name="IMC COLLECTOR SHUTTLE" id="2617414984" />
+  <Workshop name="IMC TRADE OUTPOST" id="2621150420" />
+  <Workshop name="IMC RAKE MKII" id="2622026199" />
+  <Workshop name="IMC RELAY BEACON" id="2622883251" />
+  <Workshop name="IMC BEACON A-27" id="2628143501" />
+  <Workshop name="IMC GUARDIAN" id="2633921905" />
+  <Workshop name="IMC GUARDIAN SHUTTLE MKII" id="2635159301" />
+  <Workshop name="IMC MONITOR  DRONE ASSEMBLY" id="2636494896" />
+  <Workshop name="IMC ARDEV" id="2643633749" />
+  <Workshop name="IMC TRIDENT" id="2821993461" />
+  <Workshop name="IMC VETERAN" id="2831957155" />
+  <Workshop name="IMC RCS TERMINAL SYSTEM" id="2832542735" />
+  <Workshop name="IMC SONA" id="2839016136" />
+  <Workshop name="IMC EXECUTOR CRUISER MKII" id="2840042614" />
+  <Workshop name="IMC OPERATOR" id="2898604207" />
+  <Workshop name="IMC HAVANA TRANSPORT" id="2900908894" />
+  <Workshop name="IMC DUGONG" id="2902573550" />
+  <Workshop name="NurseShark Vintage Mk-VI" id="2910545308" />
+  <Workshop name="EK Kira Mk-V" id="2519724605" />
+  <Workshop name="EK Marauder Mk-VII" id="2272163571" />
+  <Workshop name="EKM Myrith Mk-VI" id="2412296462" />
+  <Workshop name="EK Berith Mk-IV" id="2636444311" />
+  <Workshop name="EKM Stiletto Mk-V" id="2660830537" />
+  <Workshop name="EK Gladius Mk-II" id="2772183717" />
+  <Workshop name="EK Matriarch Mk-VII" id="2218505792" />
+  <Workshop name="EK Huxley Mk-V" id="2257594976" />
+  <Workshop name="EK Carlos Mk-II" id="2300582203" />
+  <Workshop name="EK Skipper Mk-IV" id="2617926865" />
+</mods>
