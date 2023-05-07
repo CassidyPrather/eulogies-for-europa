@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--This will have a very peculiar interaction with Barotrauma's 1.0.0 release, be warned...-->
 <mods name="End of Europa 7.0.0">
   <Vanilla />
   <!--Core Packages and Libraries-->
@@ -11,7 +10,7 @@
   <Workshop name="Slow Diving Gear (FFE)" id="2914378740" /> <!--Override order-->
   <Workshop name="Fashion For Europa" id="2914376642" />
   <!--World & Monsters-->
-  <Workshop name="Evolution of Europa" id="2938995112" />
+  <Workshop name="BaroTraumatic" id="2518816103" />
   <Workshop name="Complete Global Darkness" id="2874526487" />
   <Workshop name="DynamicEuropa - Default Level Size Patch + Frith's Biomes" id="2927719894" />
   <Workshop name="[UPDATED!] Frith's Biomes" id="2020332046" />
