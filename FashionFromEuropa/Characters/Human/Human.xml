@@ -30,7 +30,7 @@
     <sound File="Content/Characters/Human/male_damage9.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
     <sound File="Content/Characters/Human/male_damage10.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
     <sound File="Content/Characters/Human/male_damage11.ogg" State="Damage" Range="500" Volume="1" Tags="Male" />
-    <health Vitality="100" DoesBleed="True" CrushDepth="-30000" UseHealthWindow="True" BleedingReduction="0" BurnReduction="0.075" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False" EmpVulnerability="0" ApplyAfflictionColors="True">
+    <health Vitality="100" DoesBleed="True" CrushDepth="6000" UseHealthWindow="True" BleedingReduction="0" BurnReduction="0.075" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False" ApplyAfflictionColors="True">
       <MedUISilhouette texture="Content/UI/Health/MedUI_Silhouette.png" columns="8" rows="2" sourcerect="0,0,1008,748" />
       <MedUIExtra texture="Content/UI/Health/MedUIExtra.png" columns="4" rows="4" sourcerect="0,0,1024,1024" />
       <Limb name="Head">
@@ -64,7 +64,7 @@
         <VitalityMultiplier type="damage" multiplier="0.5" />
       </Limb>
     </health>
-    <inventory arrowslot="10" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="True" Commonness="1" />
+    <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="True" Commonness="1" />
     <Heads>
       <Head tags="head1,male" sheetindex="0,0" />
       <Head tags="head2,male" sheetindex="1,0" />
@@ -131,91 +131,94 @@
     <MenuCategory var="GENDER" />
     <Pronouns var="GENDER" />
     <HeadAttachments>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
+        <sprite name="Hair None" texture="%ModDir%/Characters/Human/none.png" sheetindex="0,0" />
+      </Wearable>
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 1" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="0,0" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 2" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="1,0" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 3" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="2,0" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 4" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="3,0" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 5" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="0,1" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 6" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="1,1" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 7" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="2,1" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 8" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="3,1" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 9" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="0,2" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 10" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="1,2" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 11" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="2,2" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 12" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="3,2" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 13" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="0,3" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 14" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="1,3" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 15" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="2,3" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 16" texture="%ModDir%/Characters/Human/Human_male_hair_1.png" sheetindex="3,3" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 17" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="0,0" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 18" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="1,0" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 19" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="2,0" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 20" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="3,0" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 21" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="0,1" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 22" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="1,1" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 23" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="2,1" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 24" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="3,1" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 25" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="0,2" />
       </Wearable>
-      <Wearable type="Hair" tags="male">
+      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 26" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="1,2" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 27" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="2,2" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="male">
+      <Wearable type="Hair" commonness="0" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 28" texture="%ModDir%/Characters/Human/Human_male_hair_2.png" sheetindex="3,2" />
       </Wearable>
-      <!--      <Wearable type="Hair" tags="male">
+      <!--      <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
         <sprite name="Hair 29" texture="Mods/EuropaWaifu+BetterHuman and anime sound/Characters/Human/Human_male_hair_2.png" sheetindex="0,3" />
       </Wearable>
       <Wearable type="Hair" tags="male">
@@ -227,196 +230,199 @@
       <Wearable type="Hair" tags="male">
         <sprite name="Hair 32" texture="Mods/EuropaWaifu+BetterHuman and anime sound/Characters/Human/Human_male_hair_2.png" sheetindex="3,3" />
       </Wearable>-->
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" commonness="0">
+        <sprite name="Hair None" texture="%ModDir%/Characters/Human/none.png" sheetindex="0,0" />
+      </Wearable>
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 1" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="0,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 2" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="1,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 3" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="2,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 4" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="3,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 5" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="0,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 6" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="1,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 7" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="2,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 8" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="3,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 9" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="0,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 10" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="1,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 11" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="2,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 12" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="3,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 13" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="0,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 14" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="1,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 15" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="2,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 16" texture="%ModDir%/Characters/Human/Human_female_hair_1.png" sheetindex="3,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 17" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="0,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 18" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="1,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 19" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="2,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 20" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="3,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 21" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="0,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 22" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="1,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 23" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="2,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 24" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="3,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 25" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="0,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 26" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="1,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 27" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="2,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 28" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="3,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 29" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="0,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 30" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="1,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 31" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="2,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 32" texture="%ModDir%/Characters/Human/Human_female_hair_2.png" sheetindex="3,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 33" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="0,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 34" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="1,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 35" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="2,0" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="female">
+      <Wearable type="Hair" commonness="0" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 36" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="3,0" />
       </Wearable>
-      <Wearable type="Hair" commonness="0" tags="female">
+      <Wearable type="Hair" commonness="0" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 37" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="0,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 38" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="1,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 39" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="2,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 40" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="3,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 41" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="0,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 42" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="1,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 43" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="2,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 44" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="3,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 45" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="0,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 46" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="1,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 47" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="2,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 48" texture="%ModDir%/Characters/Human/Human_female_hair_3.png" sheetindex="3,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 49" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="0,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 50" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="1,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 51" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="2,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 52" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="3,0" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 53" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="0,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 54" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="1,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 55" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="2,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 56" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="3,1" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 57" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="0,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 58" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="1,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 59" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="2,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 60" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="3,2" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 61" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="0,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 62" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="1,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 63" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="2,3" />
       </Wearable>
-      <Wearable type="Hair" tags="female">
+      <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
         <sprite name="Hair 64" texture="%ModDir%/Characters/Human/Human_female_hair_4.png" sheetindex="3,3" />
       </Wearable>
       <!--<Wearable type="Moustache" tags="male">

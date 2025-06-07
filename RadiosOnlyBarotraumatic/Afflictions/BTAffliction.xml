@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction name="Radio" identifier="radio" target="human" isbuff="true" limbspecific="false" indicatorlimb="Head" ShowIconToOthersThreshold="801" ShowInHealthCcannerThreshold="801" showiconthreshold="801" maxstrength="800">
+    <Description textidentifier="AfflictionDescription.BTradio.150" minstrength="1" maxstrength="150"></Description>
+    <Description textidentifier="AfflictionDescription.BTradio.200" minstrength="151" maxstrength="200"></Description>
+    <Description textidentifier="AfflictionDescription.BTradio.300" minstrength="201" maxstrength="300"></Description>
+    <Description textidentifier="AfflictionDescription.BTradio.400" minstrength="301" maxstrength="400"></Description>
+    <Description textidentifier="AfflictionDescription.BTradio.800" minstrength="401" maxstrength="800"></Description>
+    <Effect minstrength="1" maxstrength="800" strengthchange="-150" tag="headset"></Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="384,128,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+</Afflictions>

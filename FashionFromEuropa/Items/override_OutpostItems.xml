@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Item name="" identifier="op_rippedposter" nameidentifier="op_sepsandbag" width="462" height="126" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Items/RebelPosters2.png" sourcerect="329,27,462,126" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+  </Item>
+  <Item name="" identifier="op_sepposter1" nameidentifier="op_sepsandbag" width="136" height="199" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Items/RebelPosters2.png" sourcerect="18,15,136,199" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+  </Item>
+  <Item name="" identifier="op_sepposter2" nameidentifier="op_sepsandbag" width="135" height="196" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Items/RebelPosters2.png" sourcerect="163,16,135,196" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+  </Item>
+  <Item name="" identifier="op_storesign1.png" nameidentifier="opdeco_adposter" width="326" height="165" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Items/Posters.png" sourcerect="327,687,326,165" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <LightComponent range="70" lightcolor="213,213,185,120" flicker="0.3" powerconsumption="0" IsOn="true" castshadows="false" allowingameediting="false" />
+  </Item>
+  <Item name="" identifier="op_lightbox1" width="163" height="209" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
+    <sprite texture="%ModDir%/Items/Posters.png" sourcerect="20,146,163,209" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <LightComponent range="60.0" lightcolor="255,234,181,200" IsOn="true" castshadows="false" allowingameediting="false" />
+  </Item>
+  <Item name="" identifier="op_lightbox3" nameidentifier="op_lightbox1" width="289" height="194" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
+    <sprite texture="%ModDir%/Items/Posters.png" sourcerect="181,145,289,194" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <LightComponent range="60.0" lightcolor="255,234,181,200" IsOn="true" castshadows="false" allowingameediting="false" />
+  </Item>
+  <Item name="" identifier="op_lightbox5" nameidentifier="op_lightbox1" width="145" height="194" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
+    <sprite texture="%ModDir%/Items/Posters.png" sourcerect="20,360,144,194" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <LightComponent range="60.0" lightcolor="255,234,181,200" IsOn="true" castshadows="false" allowingameediting="false" />
+  </Item>
+</Override>

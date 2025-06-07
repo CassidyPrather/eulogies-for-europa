@@ -3,7 +3,7 @@
   <limb name="Huskappendage 1" id="18" height="10" width="15" ignorecollisions="True" flip="True">
     <sprite texture="%ModDir%/Characters/Humanhusk/Husk_Injector.png" sourcerect="25,86,20,15" depth="0.11" origin="0.5,0.5" ignoretint="true" />
     <attack range="40" damagerange="25" duration="0.1" targetforce="0" structuresoundtype="StructureBlunt" force="6" applyforceonlimbs="0" torque="0" context="Any" targettype="Character" hitdetectiontype="Distance" structuredamage="0" itemdamage="0" stun="0" onlyhumans="False" applyforcesonlyonce="False" targetimpulse="3" targetimpulseworld="0,0" targetforceworld="0,0" severlimbsprobability="0" stickchance="0" priority="0" afterattack="FollowThrough" cooldown="1" secondarycooldown="0" cooldownrandomfactor="0">
-      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+      <StatusEffect type="OnUse" target="Parent" disabledeltatime="true">
         <ReduceAffliction type="damage" strength="1.5" />
       </StatusEffect>
       <Affliction identifier="bitewounds" strength="2" />
@@ -22,7 +22,7 @@
     <sprite texture="%ModDir%/Characters/Humanhusk/Husk_Injector.png" sourcerect="91,86,20,15" depth="0.11" origin="0.5,0.5" ignoretint="true" />
   </limb>
   <!-- Head to husk appendage -->
-  <joint name="Head to Huskappendage" limb1="1" limb2="15" limb1anchor="6.5,-8" limb2anchor="-3,0" upperlimit="0" lowerlimit="-10" canbesevered="False" limitenabled="True" />
+  <joint name="Head to Huskappendage" limb1="1" limb2="18" limb1anchor="6.5,-8" limb2anchor="-3,0" upperlimit="0" lowerlimit="-10" canbesevered="False" limitenabled="True" />
   <joint name="Huskappendage 1-2" limb1="18" limb2="19" limb1anchor="3,0" limb2anchor="-3,0" upperlimit="1" lowerlimit="-1" canbesevered="False" limitenabled="True" />
   <joint name="Huskappendage 2-3" limb1="19" limb2="20" limb1anchor="3,0" limb2anchor="-3,0" upperlimit="1" lowerlimit="-1" canbesevered="False" limitenabled="True" />
   <joint name="Huskappendage 3-4" limb1="20" limb2="21" limb1anchor="3,0" limb2anchor="-3,0" upperlimit="1" lowerlimit="-1" canbesevered="False" limitenabled="True" />

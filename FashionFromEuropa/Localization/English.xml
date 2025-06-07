@@ -1,22 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.maidheadband>Maid Headband</entityname.maidheadband>
+  <entitydescription.maidheadband>A headband for assistants.</entitydescription.maidheadband>
+  <entityname.weeaboo>Katana</entityname.weeaboo>
+  <entitydescription.weeaboo>An antique weapon issued to old weeaboo. Still deadly in experienced hands.</entitydescription.weeaboo>
+  <entityname.bunnyears>Bunny Ears</entityname.bunnyears>
+  <entityname.bunnysuit>Bunny Suit</entityname.bunnysuit>
+  <entitydescription.bunnysuit>You want this</entitydescription.bunnysuit>
+  <entityname.bdsmsuit>BDSM Suit</entityname.bdsmsuit>
+  <entitydescription.bdsmsuit>♂OH YES SIR♂</entitydescription.bdsmsuit>
   <entityname.ccape1>Captain's cape 2</entityname.ccape1>
   <entityname.ccape2>Captain's cape 1</entityname.ccape2>
   <entityname.ccape3>Captain's cape 3</entityname.ccape3>
   <entityname.captainscap4>Captain's garrison cap</entityname.captainscap4>
   <entityname.medicalbandolier>Medical Bandolier</entityname.medicalbandolier>
   <entityname.athame>Athame</entityname.athame>
-  <entityname.devilmask>Devil Mask</entityname.devilmask>
-  <entityname.devilcostume>Devil Costume</entityname.devilcostume>
-  <entityname.bunnyears>Bunny Ears</entityname.bunnyears>
-  <entityname.bunnysuit>Bunny Suit</entityname.bunnysuit>
-  <entityname.bdsmsuit>Bondage Suit</entityname.bdsmsuit>
-  <entityname.aks74ucostume>AKS 74 Gear</entityname.aks74ucostume>
-  <entityname.hk416ucostume>HK 416 Gear</entityname.hk416ucostume>
-  <entityname.m200ucostume>M200 Gear</entityname.m200ucostume>
-  <entityname.mp7costume>MP7 Gear</entityname.mp7costume>
-  <entityname.ro635ucostume>RO635 Gear</entityname.ro635ucostume>
-  <entityname.ump9ucostume>UMP9 Gear</entityname.ump9ucostume>
-  <entityname.vsk94ucostume>VSK94 Gear</entityname.vsk94ucostume>
-  <entityname.m45ucostume>M45 Gear</entityname.m45ucostume>
+  <entityname.devilcostume>Mr. Devil outfit</entityname.devilcostume>
+  <entityname.devilmask>Mr. Devil</entityname.devilmask>
+  <entityname.christmashat_red1>Red Christmas Hat</entityname.christmashat_red1>
+  <entityname.christmashat_red2>Red Christmas Hat</entityname.christmashat_red2>
+  <entityname.christmashat_red3>Red Christmas Hat</entityname.christmashat_red3>
+  <entityname.christmashat_red4>Red Christmas Hat</entityname.christmashat_red4>
+  <entityname.christmashat_green1>Green Christmas Hat</entityname.christmashat_green1>
+  <entityname.christmashat_green2>Green Christmas Hat</entityname.christmashat_green2>
+  <entityname.christmashat_green3>Green Christmas Hat</entityname.christmashat_green3>
+  <entityname.christmashat_green4>Green Christmas Hat</entityname.christmashat_green4>
+  <entityname.aks74ucostume>Kalina</entityname.aks74ucostume>
+  <entityname.hk416ucostume>HK416</entityname.hk416ucostume>
+  <entityname.m200ucostume>M200</entityname.m200ucostume>
+  <entityname.mp7costume>MP7</entityname.mp7costume>
+  <entityname.ro635ucostume>RO635</entityname.ro635ucostume>
+  <entityname.ump9ucostume>UMP9</entityname.ump9ucostume>
+  <entityname.vsk94ucostume>VSK94</entityname.vsk94ucostume>
+  <entityname.m45ucostume>M45</entityname.m45ucostume>
+  <entityname.monstergirlbooklocked>MGE Book</entityname.monstergirlbooklocked>
+  <entitydescription.monstergirlbooklocked>A strange book containing information and images of unknown monster human hybrids. Thankfully its locked, who knows what happens when you read it.</entitydescription.monstergirlbooklocked>
+  <entityname.miiafigure>Lamia figure</entityname.miiafigure>
+  <entitydescription.miiafigure>A strange figure representing a human hybrid creature. It seems its from earth, but how did it get here?</entitydescription.miiafigure>
 </infotexts>

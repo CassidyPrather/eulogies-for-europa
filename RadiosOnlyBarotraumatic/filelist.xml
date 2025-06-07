@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Radio-only BaroTraumatic" modversion="1.0.4" corepackage="False" steamworkshopid="3491913653" gameversion="1.8.8.1">
+  <Afflictions file="%ModDir%/Afflictions/BTAffliction.xml" />
+  <Item file="%ModDir%/Items/misc.xml" />
+</contentpackage>

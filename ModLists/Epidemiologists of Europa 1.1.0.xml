@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mods name="Epidemiologists of Europa">
+  <Vanilla />
+  <Workshop name="Lua For Barotrauma" id="2559634234" />
+  <Workshop name="Mercy Hospital Updated" id="3355559986" />
+  <Workshop name="EW non xpath NT Scanner fix" id="3278851957" />
+  <Workshop name="NT Informative Descriptions" id="3294275235" />
+  <Workshop name="Slow Diving Gear (FFE)" id="2914378740" />
+  <Workshop name="Fashion For Europa" id="2914376642" />
+  <Workshop name="BetterHealthUI (Updated)" id="3231293294" />
+  <Workshop name="Neurotrauma" id="3190189044" />
+  <Workshop name="Slower Jovian Radiation (50%)" id="2483073074" />
+  <Workshop name="Beacons Extended" id="2389600483" />
+  <Workshop name="ADV Beacon Stations" id="2544952900" />
+  <Workshop name="Shipwrecks Extended" id="2095211492" />
+  <Workshop name="Stations from beyond" id="2585543390" />
+  <Workshop name="New Wrecks For Barotrauma (With sellable wrecks)" id="2184257427" />
+</mods>

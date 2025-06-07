@@ -4,6 +4,7 @@
   <Item name="" identifier="commonerclothes1" nameidentifier="outpostoutfit1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -14,9 +15,9 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="6,9" sheetelementsize="64,64" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="0,6" sheetelementsize="128,128" />
     <Sprite name="commoner 1" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="1,8,120,59" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 1 Torso" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_1.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.54" />
       <sprite name="Commoner's Clothes 1 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_1.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -39,6 +40,7 @@
   <Item name="" identifier="commonerclothes2" nameidentifier="outpostoutfit1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -49,9 +51,9 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="4,9" sheetelementsize="64,64" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="1,6" sheetelementsize="128,128" />
     <Sprite name="commoner 2" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="0,72,119,69" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 2 Torso" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_2.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.52" />
       <sprite name="Commoner's Clothes 2 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_2.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -74,6 +76,7 @@
   <Item name="" identifier="commonerclothes3" nameidentifier="outpostoutfit1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -86,7 +89,7 @@
     </Deconstruct>
     <Sprite name="commoner 3" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="125,74,120,64" depth="0.6" origin="0.5,0.5" />
     <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="2,6" sheetelementsize="128,128" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 3 Torso" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_3.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.52" />
       <sprite name="Commoner's Clothes 3 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_3.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -109,6 +112,7 @@
   <Item name="" identifier="commonerclothes4" nameidentifier="outpostoutfit1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -120,8 +124,8 @@
       <Item identifier="organicfiber" />
     </Deconstruct>
     <Sprite name="commoner 4" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="0,148,119,59" depth="0.6" origin="0.5,0.5" />
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="5,9" sheetelementsize="64,64" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="0,7" sheetelementsize="128,128" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 4 Torso" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_4.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,180" origin="0.575,0.56" />
       <sprite name="Commoner's Clothes 4 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_4.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -144,6 +148,7 @@
   <Item name="" identifier="commonerclothes5" nameidentifier="outpostoutfit1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -155,8 +160,8 @@
       <Item identifier="organicfiber" />
     </Deconstruct>
     <Sprite name="commoner 5" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="122,145,123,62" depth="0.6" origin="0.5,0.5" />
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="6,8" sheetelementsize="64,64" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="1,7" sheetelementsize="128,128" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 5 Torso" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_5.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.52" />
       <sprite name="Commoner's Clothes 5 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/Commoner_[GENDER]_5.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -179,6 +184,7 @@
   <Item name="" identifier="crewchiefclothes" nameidentifier="crewchiefoutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -189,9 +195,9 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="1,8" sheetelementsize="64,64" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="1,4" sheetelementsize="128,128" />
     <Sprite name="crewchief" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="247,77,117,62" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Crew Chief Torso" texture="%ModDir%/Items/Jobgear/Commoner/crewchief_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.54" />
       <sprite name="Crew Chief Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/crewchief_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -215,6 +221,7 @@
   <Item name="" identifier="medicalofficerclothes" nameidentifier="medicalofficeroutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -225,9 +232,9 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="3,5" sheetelementsize="128,128" />
     <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="MedicalOfficer's Uniform Torso" texture="%ModDir%/Items/Jobgear/Commoner/MedicalOfficer_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,256" origin="0.575,0.4" />
       <sprite name="MedicalOfficer's Uniform Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/MedicalOfficer_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -250,6 +257,7 @@
   <Item name="" identifier="minerclothes" nameidentifier="mineroutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -262,7 +270,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="0,9" sheetelementsize="64,64" />
     <Sprite name="miner" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="374,73,120,65" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Miner Torso" texture="%ModDir%/Items/Jobgear/Commoner/miner_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,180" origin="0.575,0.56" />
       <sprite name="Miner Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/miner_[GENDER].png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -287,6 +295,7 @@
   <Item name="" identifier="quartermasterclothes" nameidentifier="quartermasteroutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -297,9 +306,9 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="0,8" sheetelementsize="64,64" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="2,4" sheetelementsize="128,128" />
     <Sprite name="quartermaster" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="642,296,119,57" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Quartermaster Torso" texture="%ModDir%/Items/Jobgear/Commoner/quartermaster_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,180" origin="0.575,0.56" />
       <sprite name="Quartermaster Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/quartermaster_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -324,6 +333,7 @@
   <Item name="" identifier="researcherclothes" nameidentifier="researcheroutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -334,9 +344,9 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,9" sheetelementsize="64,64" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sheetindex="3,4" sheetelementsize="128,128" />
     <Sprite name="researcher" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="376,147,118,57" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Researcher Torso" texture="%ModDir%/Items/Jobgear/Commoner/researcher_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" iinheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,256" origin="0.575,0.4" />
       <sprite name="Researcher Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/researcher_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -362,6 +372,7 @@
   <Item name="" identifier="securitypatrolclothes" nameidentifier="securitypatroloutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -374,7 +385,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="2,8" sheetelementsize="64,64" />
     <Sprite name="securitypatrol" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="376,3,121,63" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Security Patrol Torso" texture="%ModDir%/Items/Jobgear/Commoner/securitypatrol_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,180" origin="0.575,0.56" />
       <sprite name="Security Patrol Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/securitypatrol_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -398,6 +409,7 @@
   <Item name="" identifier="administratorclothes" nameidentifier="stationadminoutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
+    <PreferredContainer primary="wreckcrewcab" spawnprobability="0.02" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -410,7 +422,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="3,8" sheetelementsize="64,64" />
     <Sprite name="administrator" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="905,160,119,57" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Administrator Suit 1 Torso" texture="%ModDir%/Items/Jobgear/Commoner/administrator_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.54" />
       <sprite name="Administrator Suit 1 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/administrator_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -431,7 +443,7 @@
     </Wearable>
   </Item>
   <Item name="" identifier="banditclothes1" nameidentifier="banditoutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
-    <PreferredContainer primary="abandonedcrewcabinet" amount="1" spawnprobability="0.2" />
+    <PreferredContainer primary="abandonedcrewcab,piratecrewcab" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
     <Price baseprice="75" sold="false">
       <Price storeidentifier="merchantoutpost" />
@@ -445,7 +457,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="3,10" sheetelementsize="64,64" />
     <Sprite name="bandit" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="510,224,120,63" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Bandit Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Commoner/bandit_[GENDER]_1.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,170" origin="0.575,0.58" />
       <sprite name="Bandit Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/bandit_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -467,7 +479,7 @@
     </Wearable>
   </Item>
   <Item name="" identifier="banditclothes2" nameidentifier="banditoutfit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
-    <PreferredContainer primary="abandonedcrewcabinet" amount="1" spawnprobability="0.2" />
+    <PreferredContainer primary="abandonedcrewcab,piratecrewcab" amount="1" spawnprobability="0.2" />
     <PreferredContainer primary="crewcab" />
     <Price baseprice="75" sold="false">
       <Price storeidentifier="merchantoutpost" />
@@ -481,7 +493,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="4,10" sheetelementsize="64,64" />
     <Sprite name="bandit" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="643,224,119,65" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Bandit Uniform 2 Torso" texture="%ModDir%/Items/Jobgear/Commoner/bandit_[GENDER]_2.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,170" origin="0.575,0.58" />
       <sprite name="Bandit Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/bandit_[GENDER]_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -516,7 +528,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="1,9" sheetelementsize="64,64" />
     <Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="769,3,118,64" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="VIP's Clothes 1 Torso" texture="%ModDir%/Items/Jobgear/Commoner/VIP1_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,125,190" origin="0.48,0.54" />
       <sprite name="VIP's Clothes 1 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/VIP1_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -551,7 +563,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="2,9" sheetelementsize="64,64" />
     <Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="896,7,125,63" depth="0.6" origin="0.5,0.5" />
-    <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="VIP's Clothes 2 Torso" texture="%ModDir%/Items/Jobgear/Commoner/VIP2_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,125,190" origin="0.48,0.54" />
       <sprite name="VIP's Clothes 2 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/VIP2_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -586,7 +598,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="3,9" sheetelementsize="64,64" />
     <Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="906,78,117,69" depth="0.6" origin="0.5,0.5" />
-    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="180" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="VIP's Clothes 3 Torso" texture="%ModDir%/Items/Jobgear/Commoner/VIP3_[GENDER].png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,125,190" origin="0.48,0.54" />
       <sprite name="VIP's Clothes 3 Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/VIP3_[GENDER].png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -621,7 +633,7 @@
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="5,8" sheetelementsize="64,64" />
     <Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="769,297,120,56" depth="0.6" origin="0.5,0.5" />
-    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Body width="180" height="50" density="15" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Prisoner's Uniform Torso" texture="%ModDir%/Items/Jobgear/Commoner/Prisoner_[GENDER].png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Prisoner's Uniform Right Hand" texture="%ModDir%/Items/Jobgear/Commoner/Prisoner_[GENDER].png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Style>
+    <PlayStyleBanner.Serious>
+      <Sprite name="PlayStyleBanner.Serious" texture="%ModDir%/UI/PlaystyleSerious.png" sourcerect="0,0,1920,768" color="#20686c" />
+    </PlayStyleBanner.Serious>
+    <PlayStyleBanner.Casual>
+      <Sprite name="PlayStyleBanner.Casual" texture="%ModDir%/UI/PlaystyleCasual.png" sourcerect="0,0,1920,768" color="#1f661c" />
+    </PlayStyleBanner.Casual>
+    <PlayStyleBanner.Roleplay>
+      <Sprite name="PlayStyleBanner.Roleplay" texture="%ModDir%/UI/PlaystyleRoleplay.png" sourcerect="0,0,1920,768" color="#8b1b45" />
+    </PlayStyleBanner.Roleplay>
+  </Style>
+</Override>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Fashion From Neurotrauma" modversion="1.0.0" corepackage="False" steamworkshopid="3494592979" gameversion="1.8.8.1">
+  <Item file="%ModDir%/items.xml" />
+</contentpackage>
