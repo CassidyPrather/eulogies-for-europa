@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Slow Diving Gear (FFE)" steamworkshopid="2914378740" corepackage="false" modversion="1.3.1" gameversion="0.21.6.0" installtime="1677367917" altnames="Slow Diving Gear" expectedhash="2A7163969B3899FC99E3C361979D88D5">
-  <Item file="%ModDir%/Items/Diving/override_divinggear.xml" />
-</contentpackage>
